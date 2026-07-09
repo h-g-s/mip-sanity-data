@@ -1,0 +1,7 @@
+instance	status	objective	sense	source
+jssp_ft06	optimal	55	min	Fisher & Thompson
+jssp_ft10	optimal	930	min	Fisher & Thompson
+jssp_la01	optimal	666	min	Lawrence
+jssp_la06	optimal	926	min	Lawrence
+jssp_la11	optimal	1222	min	Lawrence
+jssp_orb01	optimal	1059	min	Applegate & Cook
