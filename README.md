@@ -27,6 +27,7 @@
 
 ## File structure
 
+```
 README.md        # description
 features.tsv     # instance features tabulated
 bks.tsv          # best known solution values (in most cases optimal) - infeasible cases should be labeled here also
@@ -40,3 +41,4 @@ bks.tsv          # best known solution values (in most cases optimal) - infeasib
 │   └── ...
 ├── generators/  # scripts for generating instances for different applications
 │   └── jssp/    # example, generator for jssp instances
+```
