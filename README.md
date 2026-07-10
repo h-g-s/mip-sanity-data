@@ -2,7 +2,7 @@
 
 ## Overview
 
-**14 problem families, 327 instances.** Each instance ships as a `.mps.gz` file
+**15 problem families, 347 instances.** Each instance ships as a `.mps.gz` file
 with a certified best-known (in most cases optimal) objective value in
 `bks.tsv` and at least one reference integer-feasible solution in `sols/`.
 Every family has a generator under `generators/<family>/` so the dataset can
@@ -51,6 +51,7 @@ be regenerated, extended, or ported to another solver's test suite.
 | [`tsp`](generators/tsp) | 26 | Traveling Salesman Problem — compact Miller-Tucker-Zemlin (MTZ) formulation; both symmetric Euclidean and asymmetric (directional-cost) instances. |
 | [`fcnf`](generators/fcnf) | 24 | Fixed-Charge Network Flow — single-commodity flow with per-arc binary "open" decision and a fixed-charge + variable-cost objective; exercises flow cuts and VUB/MIR. |
 | [`hop_nd`](generators/hop_nd) | 24 | Hop-Constrained Network Design — binary edge-install decisions supporting multi-commodity flow with a hop limit, enforced via a layered (time-expanded) graph; capacity is shared across commodities on each built edge. |
+| [`sppc`](generators/sppc) | 20 | Generalized Set Partitioning/Packing/Covering — a single binary program mixing `=1`/`<=1`/`>=1` row types over one shared column set (crew-scheduling style); dense overlapping packing/covering rows force genuine branch-and-bound; specifically designed to exercise the conflict-graph structure over both original and complemented literals. Includes a permanent bug-repro fixture for a known MIPster preprocessing wrong-optimal issue. |
 
 ## File structure
 
@@ -80,5 +81,6 @@ bks.tsv          # best known solution values (in most cases optimal) - infeasib
 │   ├── rcpsp/         # resource-constrained project scheduling
 │   ├── tsp/           # traveling salesman problem
 │   ├── fcnf/          # fixed-charge network flow
-│   └── hop_nd/        # hop-constrained network design
+│   ├── hop_nd/        # hop-constrained network design
+│   └── sppc/          # generalized set partitioning/packing/covering
 ```
