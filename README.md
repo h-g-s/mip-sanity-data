@@ -2,7 +2,7 @@
 
 ## Overview
 
-**15 problem families, 347 instances.** Each instance ships as a `.mps.gz` file
+**16 problem families, 365 instances.** Each instance ships as a `.mps.gz` file
 with a certified best-known (in most cases optimal) objective value in
 `bks.tsv` and at least one reference integer-feasible solution in `sols/`.
 Every family has a generator under `generators/<family>/` so the dataset can
@@ -52,8 +52,12 @@ be regenerated, extended, or ported to another solver's test suite.
 | [`fcnf`](generators/fcnf) | 24 | Fixed-Charge Network Flow — single-commodity flow with per-arc binary "open" decision and a fixed-charge + variable-cost objective; exercises flow cuts and VUB/MIR. |
 | [`hop_nd`](generators/hop_nd) | 24 | Hop-Constrained Network Design — binary edge-install decisions supporting multi-commodity flow with a hop limit, enforced via a layered (time-expanded) graph; capacity is shared across commodities on each built edge. |
 | [`sppc`](generators/sppc) | 20 | Generalized Set Partitioning/Packing/Covering — a single binary program mixing `=1`/`<=1`/`>=1` row types over one shared column set (crew-scheduling style); dense overlapping packing/covering rows force genuine branch-and-bound; specifically designed to exercise the conflict-graph structure over both original and complemented literals. Includes a permanent bug-repro fixture for a known MIPster preprocessing wrong-optimal issue. |
+| [`cttp`](generators/cttp) | 18 | Class-Teacher Timetabling (Santos-style) — assign each class/teacher meeting's weekly lessons to day/timeslot "patterns" (1 lesson, or 2 consecutive lessons per day); binds teacher and class occupancy across all meetings, so it is not decomposable per pair. Objective minimizes (1) number of teacher-days-used ("day-off" preference) and (2) within-day idle gaps in a teacher's schedule; supports per-teacher-day/timeslot unavailability. Includes a genuinely infeasible fixture and two weight-variant fixtures (gap-focused vs. day-focused objective). |
 
 ## Solver coverage (full-run snapshot)
+
+> Snapshot predates the `cttp` family; counts below are out of the 347
+> instances that existed at the time of the run, not the current 365.
 
 A full run of all 347 instances (7 parallel cores, 300s internal time limit,
 360s hard kill) was performed to check how much of MIPster's cut/heuristic/
@@ -155,5 +159,6 @@ limits.tsv       # suggested per-instance node/time/hard-kill limits for quick r
 │   ├── tsp/           # traveling salesman problem
 │   ├── fcnf/          # fixed-charge network flow
 │   ├── hop_nd/        # hop-constrained network design
-│   └── sppc/          # generalized set partitioning/packing/covering
+│   ├── sppc/          # generalized set partitioning/packing/covering
+│   └── cttp/          # class-teacher timetabling
 ```

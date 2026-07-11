@@ -1,0 +1,3482 @@
+[
+ {
+  "name": "cttp_c4_t5_d5_s6_r2-3_sd3",
+  "nc": 4,
+  "nt": 5,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 3,
+  "obj": 100.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 91,
+  "wall": 7.66,
+  "lower_bound": null,
+  "num_meetings": 18,
+  "total_req": 47
+ },
+ {
+  "name": "cttp_c4_t5_d5_s6_r2-3_sd3",
+  "nc": 4,
+  "nt": 5,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 3,
+  "obj": 100.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 91,
+  "wall": 7.82,
+  "lower_bound": null,
+  "num_meetings": 18,
+  "total_req": 47
+ },
+ {
+  "name": "cttp_c4_t5_d5_s6_r2-4_sd1",
+  "nc": 4,
+  "nt": 5,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 1,
+  "obj": 110.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 80,
+  "wall": 9.71,
+  "lower_bound": null,
+  "num_meetings": 19,
+  "total_req": 54
+ },
+ {
+  "name": "cttp_c4_t5_d5_s6_r2-3_sd1",
+  "nc": 4,
+  "nt": 5,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 1,
+  "obj": 100.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 278,
+  "wall": 11.25,
+  "lower_bound": null,
+  "num_meetings": 19,
+  "total_req": 47
+ },
+ {
+  "name": "cttp_c4_t5_d5_s6_r2-3_sd1",
+  "nc": 4,
+  "nt": 5,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 1,
+  "obj": 100.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 278,
+  "wall": 11.27,
+  "lower_bound": null,
+  "num_meetings": 19,
+  "total_req": 47
+ },
+ {
+  "name": "cttp_c4_t5_d5_s6_r2-3_sd2",
+  "nc": 4,
+  "nt": 5,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 2,
+  "obj": 90.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 68,
+  "wall": 12.26,
+  "lower_bound": null,
+  "num_meetings": 18,
+  "total_req": 44
+ },
+ {
+  "name": "cttp_c4_t5_d5_s6_r2-3_sd2",
+  "nc": 4,
+  "nt": 5,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 2,
+  "obj": 90.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 68,
+  "wall": 12.44,
+  "lower_bound": null,
+  "num_meetings": 18,
+  "total_req": 44
+ },
+ {
+  "name": "cttp_c4_t5_d5_s6_r2-4_sd2",
+  "nc": 4,
+  "nt": 5,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 2,
+  "obj": 100.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 33,
+  "wall": 5.1,
+  "lower_bound": null,
+  "num_meetings": 19,
+  "total_req": 54
+ },
+ {
+  "name": "cttp_c4_t5_d5_s6_r2-4_sd2",
+  "nc": 4,
+  "nt": 5,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 2,
+  "obj": 100.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 33,
+  "wall": 5.08,
+  "lower_bound": null,
+  "num_meetings": 19,
+  "total_req": 54
+ },
+ {
+  "name": "cttp_c5_t6_d5_s6_r2-3_sd3",
+  "nc": 5,
+  "nt": 6,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 3,
+  "obj": 120.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 51,
+  "wall": 5.32,
+  "lower_bound": null,
+  "num_meetings": 24,
+  "total_req": 60
+ },
+ {
+  "name": "cttp_c4_t5_d5_s6_r2-4_sd1",
+  "nc": 4,
+  "nt": 5,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 1,
+  "obj": 110.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 80,
+  "wall": 9.77,
+  "lower_bound": null,
+  "num_meetings": 19,
+  "total_req": 54
+ },
+ {
+  "name": "cttp_c4_t5_d5_s6_r2-4_sd3",
+  "nc": 4,
+  "nt": 5,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 3,
+  "obj": 130.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 97,
+  "wall": 12.04,
+  "lower_bound": null,
+  "num_meetings": 17,
+  "total_req": 57
+ },
+ {
+  "name": "cttp_c5_t6_d5_s6_r2-3_sd2",
+  "nc": 5,
+  "nt": 6,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 2,
+  "obj": 140.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 104,
+  "wall": 8.85,
+  "lower_bound": null,
+  "num_meetings": 25,
+  "total_req": 65
+ },
+ {
+  "name": "cttp_c4_t5_d5_s6_r2-4_sd3",
+  "nc": 4,
+  "nt": 5,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 3,
+  "obj": 130.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 97,
+  "wall": 12.13,
+  "lower_bound": null,
+  "num_meetings": 17,
+  "total_req": 57
+ },
+ {
+  "name": "cttp_c5_t6_d5_s6_r2-3_sd3",
+  "nc": 5,
+  "nt": 6,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 3,
+  "obj": 120.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 51,
+  "wall": 5.27,
+  "lower_bound": null,
+  "num_meetings": 24,
+  "total_req": 60
+ },
+ {
+  "name": "cttp_c5_t6_d5_s6_r2-3_sd2",
+  "nc": 5,
+  "nt": 6,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 2,
+  "obj": 140.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 104,
+  "wall": 9.03,
+  "lower_bound": null,
+  "num_meetings": 25,
+  "total_req": 65
+ },
+ {
+  "name": "cttp_c5_t6_d5_s6_r2-4_sd2",
+  "nc": 5,
+  "nt": 6,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 2,
+  "obj": 150.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 42,
+  "wall": 7.43,
+  "lower_bound": null,
+  "num_meetings": 24,
+  "total_req": 75
+ },
+ {
+  "name": "cttp_c5_t6_d5_s6_r2-3_sd1",
+  "nc": 5,
+  "nt": 6,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 1,
+  "obj": 130.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 509,
+  "wall": 17.7,
+  "lower_bound": null,
+  "num_meetings": 23,
+  "total_req": 57
+ },
+ {
+  "name": "cttp_c5_t6_d5_s6_r2-3_sd1",
+  "nc": 5,
+  "nt": 6,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 1,
+  "obj": 130.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 509,
+  "wall": 17.37,
+  "lower_bound": null,
+  "num_meetings": 23,
+  "total_req": 57
+ },
+ {
+  "name": "cttp_c5_t6_d5_s6_r2-4_sd2",
+  "nc": 5,
+  "nt": 6,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 2,
+  "obj": 150.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 42,
+  "wall": 7.65,
+  "lower_bound": null,
+  "num_meetings": 24,
+  "total_req": 75
+ },
+ {
+  "name": "cttp_c5_t6_d5_s6_r2-4_sd3",
+  "nc": 5,
+  "nt": 6,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 3,
+  "obj": 120.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 328,
+  "wall": 16.86,
+  "lower_bound": null,
+  "num_meetings": 20,
+  "total_req": 60
+ },
+ {
+  "name": "cttp_c5_t6_d5_s6_r2-4_sd3",
+  "nc": 5,
+  "nt": 6,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 3,
+  "obj": 120.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 328,
+  "wall": 16.78,
+  "lower_bound": null,
+  "num_meetings": 20,
+  "total_req": 60
+ },
+ {
+  "name": "cttp_c5_t6_d5_s6_r2-4_sd1",
+  "nc": 5,
+  "nt": 6,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 1,
+  "obj": 120.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 829,
+  "wall": 43.76,
+  "lower_bound": null,
+  "num_meetings": 22,
+  "total_req": 64
+ },
+ {
+  "name": "cttp_c5_t6_d5_s6_r2-4_sd1",
+  "nc": 5,
+  "nt": 6,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 1,
+  "obj": 120.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 829,
+  "wall": 43.33,
+  "lower_bound": null,
+  "num_meetings": 22,
+  "total_req": 64
+ },
+ {
+  "name": "cttp_c6_t7_d5_s6_r2-3_sd1",
+  "nc": 6,
+  "nt": 7,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 1,
+  "obj": 160.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 1671,
+  "wall": 90.1,
+  "lower_bound": 147.8,
+  "num_meetings": 30,
+  "total_req": 73
+ },
+ {
+  "name": "cttp_c6_t7_d5_s6_r2-3_sd2",
+  "nc": 6,
+  "nt": 7,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 2,
+  "obj": 172.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 684,
+  "wall": 90.08,
+  "lower_bound": 163.796,
+  "num_meetings": 31,
+  "total_req": 81
+ },
+ {
+  "name": "cttp_c6_t7_d5_s6_r2-3_sd3",
+  "nc": 6,
+  "nt": 7,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 3,
+  "obj": 180.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 3764,
+  "wall": 90.11,
+  "lower_bound": 160.0,
+  "num_meetings": 32,
+  "total_req": 82
+ },
+ {
+  "name": "cttp_c6_t7_d5_s6_r2-3_sd1",
+  "nc": 6,
+  "nt": 7,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 1,
+  "obj": 160.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 1678,
+  "wall": 90.09,
+  "lower_bound": 147.8,
+  "num_meetings": 30,
+  "total_req": 73
+ },
+ {
+  "name": "cttp_c6_t7_d5_s6_r2-3_sd2",
+  "nc": 6,
+  "nt": 7,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 2,
+  "obj": 172.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 662,
+  "wall": 90.1,
+  "lower_bound": 163.796,
+  "num_meetings": 31,
+  "total_req": 81
+ },
+ {
+  "name": "cttp_c6_t7_d5_s6_r2-3_sd3",
+  "nc": 6,
+  "nt": 7,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 3,
+  "obj": 180.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 3755,
+  "wall": 90.11,
+  "lower_bound": 160.0,
+  "num_meetings": 32,
+  "total_req": 82
+ },
+ {
+  "name": "cttp_c6_t7_d5_s6_r2-4_sd1",
+  "nc": 6,
+  "nt": 7,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 1,
+  "obj": 170.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 1375,
+  "wall": 90.09,
+  "lower_bound": 162.4,
+  "num_meetings": 26,
+  "total_req": 78
+ },
+ {
+  "name": "cttp_c6_t8_d5_s6_r2-3_sd1",
+  "nc": 6,
+  "nt": 8,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 1,
+  "obj": 180.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 97,
+  "wall": 10.49,
+  "lower_bound": null,
+  "num_meetings": 30,
+  "total_req": 80
+ },
+ {
+  "name": "cttp_c6_t8_d5_s6_r2-3_sd3",
+  "nc": 6,
+  "nt": 8,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 3,
+  "obj": 160.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 113,
+  "wall": 41.71,
+  "lower_bound": null,
+  "num_meetings": 27,
+  "total_req": 70
+ },
+ {
+  "name": "cttp_c6_t7_d5_s6_r2-4_sd2",
+  "nc": 6,
+  "nt": 7,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 2,
+  "obj": 202.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 404,
+  "wall": 90.1,
+  "lower_bound": 199.691,
+  "num_meetings": 29,
+  "total_req": 90
+ },
+ {
+  "name": "cttp_c6_t7_d5_s6_r2-4_sd3",
+  "nc": 6,
+  "nt": 7,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 3,
+  "obj": 190.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 1958,
+  "wall": 90.11,
+  "lower_bound": 186.667,
+  "num_meetings": 28,
+  "total_req": 90
+ },
+ {
+  "name": "cttp_c6_t7_d5_s6_r2-4_sd1",
+  "nc": 6,
+  "nt": 7,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 1,
+  "obj": 170.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 1376,
+  "wall": 90.08,
+  "lower_bound": 162.4,
+  "num_meetings": 26,
+  "total_req": 78
+ },
+ {
+  "name": "cttp_c6_t8_d5_s6_r2-3_sd1",
+  "nc": 6,
+  "nt": 8,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 1,
+  "obj": 180.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 97,
+  "wall": 10.61,
+  "lower_bound": null,
+  "num_meetings": 30,
+  "total_req": 80
+ },
+ {
+  "name": "cttp_c6_t7_d5_s6_r2-4_sd2",
+  "nc": 6,
+  "nt": 7,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 2,
+  "obj": 202.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 404,
+  "wall": 90.11,
+  "lower_bound": 199.691,
+  "num_meetings": 29,
+  "total_req": 90
+ },
+ {
+  "name": "cttp_c6_t7_d5_s6_r2-4_sd3",
+  "nc": 6,
+  "nt": 7,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 3,
+  "obj": 190.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 1951,
+  "wall": 90.1,
+  "lower_bound": 186.667,
+  "num_meetings": 28,
+  "total_req": 90
+ },
+ {
+  "name": "cttp_c6_t8_d5_s6_r2-4_sd3",
+  "nc": 6,
+  "nt": 8,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 3,
+  "obj": 200.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 50,
+  "wall": 16.55,
+  "lower_bound": null,
+  "num_meetings": 29,
+  "total_req": 95
+ },
+ {
+  "name": "cttp_c6_t8_d5_s6_r2-3_sd2",
+  "nc": 6,
+  "nt": 8,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 2,
+  "obj": 160.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 1899,
+  "wall": 90.12,
+  "lower_bound": 151.467,
+  "num_meetings": 30,
+  "total_req": 77
+ },
+ {
+  "name": "cttp_c6_t8_d5_s6_r2-4_sd1",
+  "nc": 6,
+  "nt": 8,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 1,
+  "obj": 200.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 243,
+  "wall": 35.1,
+  "lower_bound": null,
+  "num_meetings": 28,
+  "total_req": 89
+ },
+ {
+  "name": "cttp_c6_t8_d5_s6_r2-3_sd3",
+  "nc": 6,
+  "nt": 8,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 3,
+  "obj": 160.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 113,
+  "wall": 41.31,
+  "lower_bound": null,
+  "num_meetings": 27,
+  "total_req": 70
+ },
+ {
+  "name": "cttp_c6_t8_d5_s6_r2-4_sd1",
+  "nc": 6,
+  "nt": 8,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 1,
+  "obj": 200.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 243,
+  "wall": 34.76,
+  "lower_bound": null,
+  "num_meetings": 28,
+  "total_req": 89
+ },
+ {
+  "name": "cttp_c6_t8_d5_s6_r2-4_sd3",
+  "nc": 6,
+  "nt": 8,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 3,
+  "obj": 200.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 50,
+  "wall": 16.2,
+  "lower_bound": null,
+  "num_meetings": 29,
+  "total_req": 95
+ },
+ {
+  "name": "cttp_c7_t9_d5_s6_r2-3_sd2",
+  "nc": 7,
+  "nt": 9,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 2,
+  "obj": 200.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 123,
+  "wall": 34.34,
+  "lower_bound": null,
+  "num_meetings": 35,
+  "total_req": 90
+ },
+ {
+  "name": "cttp_c6_t8_d5_s6_r2-3_sd2",
+  "nc": 6,
+  "nt": 8,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 2,
+  "obj": 160.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 1894,
+  "wall": 90.11,
+  "lower_bound": 151.467,
+  "num_meetings": 30,
+  "total_req": 77
+ },
+ {
+  "name": "cttp_c6_t8_d5_s6_r2-4_sd2",
+  "nc": 6,
+  "nt": 8,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 2,
+  "obj": 191.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 935,
+  "wall": 86.16,
+  "lower_bound": null,
+  "num_meetings": 29,
+  "total_req": 94
+ },
+ {
+  "name": "cttp_c6_t8_d5_s6_r2-4_sd2",
+  "nc": 6,
+  "nt": 8,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 2,
+  "obj": 191.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 881,
+  "wall": 80.51,
+  "lower_bound": null,
+  "num_meetings": 29,
+  "total_req": 94
+ },
+ {
+  "name": "cttp_c7_t9_d5_s6_r2-3_sd2",
+  "nc": 7,
+  "nt": 9,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 2,
+  "obj": 200.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 123,
+  "wall": 34.95,
+  "lower_bound": null,
+  "num_meetings": 35,
+  "total_req": 90
+ },
+ {
+  "name": "cttp_c7_t9_d5_s6_r2-3_sd1",
+  "nc": 7,
+  "nt": 9,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 1,
+  "obj": 211.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 1884,
+  "wall": 90.11,
+  "lower_bound": 195.0,
+  "num_meetings": 33,
+  "total_req": 86
+ },
+ {
+  "name": "cttp_c7_t9_d5_s6_r2-3_sd3",
+  "nc": 7,
+  "nt": 9,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 3,
+  "obj": 181.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 1064,
+  "wall": 90.16,
+  "lower_bound": 173.333,
+  "num_meetings": 36,
+  "total_req": 92
+ },
+ {
+  "name": "cttp_c7_t9_d5_s6_r2-3_sd1",
+  "nc": 7,
+  "nt": 9,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 1,
+  "obj": 211.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 1866,
+  "wall": 90.1,
+  "lower_bound": 195.0,
+  "num_meetings": 33,
+  "total_req": 86
+ },
+ {
+  "name": "cttp_c7_t9_d5_s6_r2-4_sd3",
+  "nc": 7,
+  "nt": 9,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 3,
+  "obj": 230.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 113,
+  "wall": 18.68,
+  "lower_bound": null,
+  "num_meetings": 33,
+  "total_req": 113
+ },
+ {
+  "name": "cttp_c7_t9_d5_s6_r2-3_sd3",
+  "nc": 7,
+  "nt": 9,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 3,
+  "obj": 181.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 1063,
+  "wall": 90.12,
+  "lower_bound": 173.333,
+  "num_meetings": 36,
+  "total_req": 92
+ },
+ {
+  "name": "cttp_c7_t9_d5_s6_r2-4_sd1",
+  "nc": 7,
+  "nt": 9,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 1,
+  "obj": 222.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 1089,
+  "wall": 90.13,
+  "lower_bound": 217.667,
+  "num_meetings": 36,
+  "total_req": 110
+ },
+ {
+  "name": "cttp_c7_t9_d5_s6_r2-4_sd2",
+  "nc": 7,
+  "nt": 9,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 2,
+  "obj": 223.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 381,
+  "wall": 90.13,
+  "lower_bound": 215.244,
+  "num_meetings": 34,
+  "total_req": 104
+ },
+ {
+  "name": "cttp_c7_t9_d5_s6_r2-4_sd3",
+  "nc": 7,
+  "nt": 9,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 3,
+  "obj": 220.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 974,
+  "wall": 90.14,
+  "lower_bound": 213.333,
+  "num_meetings": 33,
+  "total_req": 111
+ },
+ {
+  "name": "cttp_c7_t9_d5_s6_r2-4_sd1",
+  "nc": 7,
+  "nt": 9,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 1,
+  "obj": 223.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 1000,
+  "wall": 90.15,
+  "lower_bound": 217.667,
+  "num_meetings": 36,
+  "total_req": 110
+ },
+ {
+  "name": "cttp_c7_t9_d5_s6_r2-4_sd2",
+  "nc": 7,
+  "nt": 9,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 2,
+  "obj": 223.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 384,
+  "wall": 90.15,
+  "lower_bound": 215.244,
+  "num_meetings": 34,
+  "total_req": 104
+ },
+ {
+  "name": "cttp_c8_t10_d5_s6_r2-3_sd1",
+  "nc": 8,
+  "nt": 10,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 1,
+  "obj": 249.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 474,
+  "wall": 90.14,
+  "lower_bound": 205.0,
+  "num_meetings": 41,
+  "total_req": 101
+ },
+ {
+  "name": "cttp_c8_t10_d5_s6_r2-3_sd2",
+  "nc": 8,
+  "nt": 10,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 2,
+  "obj": 234.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 673,
+  "wall": 90.13,
+  "lower_bound": 220.0,
+  "num_meetings": 40,
+  "total_req": 102
+ },
+ {
+  "name": "cttp_c8_t10_d5_s6_r2-3_sd3",
+  "nc": 8,
+  "nt": 10,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 3,
+  "obj": 211.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 289,
+  "wall": 90.17,
+  "lower_bound": 202.533,
+  "num_meetings": 40,
+  "total_req": 101
+ },
+ {
+  "name": "cttp_c8_t10_d5_s6_r2-4_sd3",
+  "nc": 8,
+  "nt": 10,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 3,
+  "obj": 240.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 125,
+  "wall": 13.54,
+  "lower_bound": null,
+  "num_meetings": 36,
+  "total_req": 118
+ },
+ {
+  "name": "cttp_c8_t10_d5_s6_r2-3_sd1",
+  "nc": 8,
+  "nt": 10,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 1,
+  "obj": 249.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 459,
+  "wall": 90.18,
+  "lower_bound": 205.0,
+  "num_meetings": 41,
+  "total_req": 101
+ },
+ {
+  "name": "cttp_c8_t10_d5_s6_r2-3_sd2",
+  "nc": 8,
+  "nt": 10,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 2,
+  "obj": 234.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 710,
+  "wall": 90.15,
+  "lower_bound": 220.0,
+  "num_meetings": 40,
+  "total_req": 102
+ },
+ {
+  "name": "cttp_c8_t10_d5_s6_r2-4_sd3",
+  "nc": 8,
+  "nt": 10,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 3,
+  "obj": 260.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 94,
+  "wall": 19.85,
+  "lower_bound": null,
+  "num_meetings": 38,
+  "total_req": 126
+ },
+ {
+  "name": "cttp_c8_t10_d5_s6_r2-3_sd3",
+  "nc": 8,
+  "nt": 10,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 3,
+  "obj": 211.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 283,
+  "wall": 90.18,
+  "lower_bound": 202.533,
+  "num_meetings": 40,
+  "total_req": 101
+ },
+ {
+  "name": "cttp_c8_t10_d5_s6_r2-4_sd1",
+  "nc": 8,
+  "nt": 10,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 1,
+  "obj": 339.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 52,
+  "wall": 90.26,
+  "lower_bound": 222.591,
+  "num_meetings": 39,
+  "total_req": 113
+ },
+ {
+  "name": "cttp_c8_t10_d5_s6_r2-4_sd2",
+  "nc": 8,
+  "nt": 10,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 2,
+  "obj": 401.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 0,
+  "wall": 90.2,
+  "lower_bound": 231.467,
+  "num_meetings": 41,
+  "total_req": 124
+ },
+ {
+  "name": "cttp_c8_t10_d5_s6_r2-4_sd1",
+  "nc": 8,
+  "nt": 10,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 1,
+  "obj": 339.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 49,
+  "wall": 90.35,
+  "lower_bound": 222.591,
+  "num_meetings": 39,
+  "total_req": 113
+ },
+ {
+  "name": "cttp_c8_t10_d5_s6_r2-4_sd2",
+  "nc": 8,
+  "nt": 10,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 2,
+  "obj": 401.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 0,
+  "wall": 90.19,
+  "lower_bound": 231.467,
+  "num_meetings": 41,
+  "total_req": 124
+ },
+ {
+  "name": "cttp_c9_t11_d5_s6_r2-3_sd1",
+  "nc": 9,
+  "nt": 11,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 1,
+  "obj": 283.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 62,
+  "wall": 90.39,
+  "lower_bound": 238.585,
+  "num_meetings": 45,
+  "total_req": 112
+ },
+ {
+  "name": "cttp_c9_t11_d5_s6_r2-3_sd2",
+  "nc": 9,
+  "nt": 11,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 2,
+  "obj": 251.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 648,
+  "wall": 90.15,
+  "lower_bound": 236.921,
+  "num_meetings": 44,
+  "total_req": 112
+ },
+ {
+  "name": "cttp_c9_t11_d5_s6_r2-3_sd3",
+  "nc": 9,
+  "nt": 11,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 3,
+  "obj": 303.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 42,
+  "wall": 90.25,
+  "lower_bound": 231.308,
+  "num_meetings": 47,
+  "total_req": 116
+ },
+ {
+  "name": "cttp_c9_t11_d5_s6_r2-3_sd1",
+  "nc": 9,
+  "nt": 11,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 1,
+  "obj": 283.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 57,
+  "wall": 90.15,
+  "lower_bound": 238.585,
+  "num_meetings": 45,
+  "total_req": 112
+ },
+ {
+  "name": "cttp_c9_t11_d5_s6_r2-3_sd2",
+  "nc": 9,
+  "nt": 11,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 2,
+  "obj": 251.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 636,
+  "wall": 90.14,
+  "lower_bound": 236.921,
+  "num_meetings": 44,
+  "total_req": 112
+ },
+ {
+  "name": "cttp_c9_t11_d5_s6_r2-3_sd3",
+  "nc": 9,
+  "nt": 11,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 3,
+  "obj": 303.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 43,
+  "wall": 90.25,
+  "lower_bound": 231.308,
+  "num_meetings": 47,
+  "total_req": 116
+ },
+ {
+  "name": "cttp_c9_t11_d5_s6_r2-4_sd3",
+  "nc": 9,
+  "nt": 11,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 3,
+  "obj": 270.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 231,
+  "wall": 25.46,
+  "lower_bound": null,
+  "num_meetings": 40,
+  "total_req": 130
+ },
+ {
+  "name": "cttp_c9_t11_d5_s6_r2-4_sd1",
+  "nc": 9,
+  "nt": 11,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 1,
+  "obj": 301.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 1122,
+  "wall": 90.19,
+  "lower_bound": 291.667,
+  "num_meetings": 46,
+  "total_req": 141
+ },
+ {
+  "name": "cttp_c9_t11_d5_s6_r2-4_sd2",
+  "nc": 9,
+  "nt": 11,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 2,
+  "obj": 313.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 71,
+  "wall": 90.11,
+  "lower_bound": 283.0,
+  "num_meetings": 45,
+  "total_req": 142
+ },
+ {
+  "name": "cttp_c9_t11_d5_s6_r2-4_sd3",
+  "nc": 9,
+  "nt": 11,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 3,
+  "obj": 270.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 551,
+  "wall": 90.18,
+  "lower_bound": 263.556,
+  "num_meetings": 40,
+  "total_req": 129
+ },
+ {
+  "name": "cttp_c9_t11_d5_s6_r2-4_sd1",
+  "nc": 9,
+  "nt": 11,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 1,
+  "obj": 301.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 1099,
+  "wall": 90.14,
+  "lower_bound": 291.667,
+  "num_meetings": 46,
+  "total_req": 141
+ },
+ {
+  "name": "cttp_c9_t11_d5_s6_r2-4_sd2",
+  "nc": 9,
+  "nt": 11,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 2,
+  "obj": 292.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 794,
+  "wall": 90.14,
+  "lower_bound": 286.667,
+  "num_meetings": 45,
+  "total_req": 142
+ },
+ {
+  "name": "cttp_c10_t12_d5_s6_r2-3_sd1",
+  "nc": 10,
+  "nt": 12,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 1,
+  "obj": 282.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 16,
+  "wall": 90.17,
+  "lower_bound": 270.0,
+  "num_meetings": 45,
+  "total_req": 113
+ },
+ {
+  "name": "cttp_c10_t12_d5_s6_r2-3_sd2",
+  "nc": 10,
+  "nt": 12,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 2,
+  "obj": 272.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 237,
+  "wall": 90.24,
+  "lower_bound": 254.333,
+  "num_meetings": 52,
+  "total_req": 126
+ },
+ {
+  "name": "cttp_c10_t12_d5_s6_r2-3_sd3",
+  "nc": 10,
+  "nt": 12,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 3,
+  "obj": 315.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 44,
+  "wall": 90.21,
+  "lower_bound": 269.241,
+  "num_meetings": 52,
+  "total_req": 129
+ },
+ {
+  "name": "cttp_c10_t12_d5_s6_r2-3_sd1",
+  "nc": 10,
+  "nt": 12,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 1,
+  "obj": 282.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 16,
+  "wall": 90.15,
+  "lower_bound": 270.0,
+  "num_meetings": 45,
+  "total_req": 113
+ },
+ {
+  "name": "cttp_c10_t12_d5_s6_r2-4_sd2",
+  "nc": 10,
+  "nt": 12,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 2,
+  "obj": null,
+  "optimal": false,
+  "infeasible": true,
+  "nodes": null,
+  "wall": 0.88,
+  "lower_bound": null,
+  "num_meetings": 53,
+  "total_req": 174
+ },
+ {
+  "name": "cttp_c10_t12_d5_s6_r2-3_sd2",
+  "nc": 10,
+  "nt": 12,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 2,
+  "obj": 421.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 25,
+  "wall": 90.26,
+  "lower_bound": 254.333,
+  "num_meetings": 52,
+  "total_req": 126
+ },
+ {
+  "name": "cttp_c10_t12_d5_s6_r2-3_sd3",
+  "nc": 10,
+  "nt": 12,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 3,
+  "obj": 315.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 42,
+  "wall": 90.2,
+  "lower_bound": 269.241,
+  "num_meetings": 52,
+  "total_req": 129
+ },
+ {
+  "name": "cttp_c6_t6_d5_s5_r2-3_sd2",
+  "nc": 6,
+  "nt": 6,
+  "nd": 5,
+  "ns": 5,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 2,
+  "obj": 180.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 69,
+  "wall": 9.26,
+  "lower_bound": null,
+  "num_meetings": 31,
+  "total_req": 78
+ },
+ {
+  "name": "cttp_c10_t12_d5_s6_r2-4_sd1",
+  "nc": 10,
+  "nt": 12,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 1,
+  "obj": 420.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 29,
+  "wall": 90.22,
+  "lower_bound": 301.502,
+  "num_meetings": 49,
+  "total_req": 144
+ },
+ {
+  "name": "cttp_c10_t12_d5_s6_r2-4_sd2",
+  "nc": 10,
+  "nt": 12,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 2,
+  "obj": 468.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 0,
+  "wall": 90.27,
+  "lower_bound": 310.8,
+  "num_meetings": 53,
+  "total_req": 173
+ },
+ {
+  "name": "cttp_c6_t6_d5_s5_r2-3_sd3",
+  "nc": 6,
+  "nt": 6,
+  "nd": 5,
+  "ns": 5,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 3,
+  "obj": 180.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 303,
+  "wall": 46.54,
+  "lower_bound": null,
+  "num_meetings": 30,
+  "total_req": 75
+ },
+ {
+  "name": "cttp_c10_t12_d5_s6_r2-4_sd3",
+  "nc": 10,
+  "nt": 12,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 3,
+  "obj": 311.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 237,
+  "wall": 90.25,
+  "lower_bound": 289.955,
+  "num_meetings": 47,
+  "total_req": 152
+ },
+ {
+  "name": "cttp_c6_t6_d5_s5_r2-3_sd2",
+  "nc": 6,
+  "nt": 6,
+  "nd": 5,
+  "ns": 5,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 2,
+  "obj": 180.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 69,
+  "wall": 9.34,
+  "lower_bound": null,
+  "num_meetings": 31,
+  "total_req": 78
+ },
+ {
+  "name": "cttp_c10_t12_d5_s6_r2-4_sd1",
+  "nc": 10,
+  "nt": 12,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 1,
+  "obj": 420.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 32,
+  "wall": 90.23,
+  "lower_bound": 301.502,
+  "num_meetings": 49,
+  "total_req": 144
+ },
+ {
+  "name": "cttp_c10_t12_d5_s6_r2-4_sd3",
+  "nc": 10,
+  "nt": 12,
+  "nd": 5,
+  "ns": 6,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 3,
+  "obj": 311.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 236,
+  "wall": 90.25,
+  "lower_bound": 289.955,
+  "num_meetings": 47,
+  "total_req": 152
+ },
+ {
+  "name": "cttp_c6_t6_d5_s5_r2-4_sd2",
+  "nc": 6,
+  "nt": 6,
+  "nd": 5,
+  "ns": 5,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 2,
+  "obj": 190.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 242,
+  "wall": 18.32,
+  "lower_bound": null,
+  "num_meetings": 29,
+  "total_req": 82
+ },
+ {
+  "name": "cttp_c6_t6_d5_s5_r2-4_sd2",
+  "nc": 6,
+  "nt": 6,
+  "nd": 5,
+  "ns": 5,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 2,
+  "obj": 220.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 70,
+  "wall": 6.19,
+  "lower_bound": null,
+  "num_meetings": 29,
+  "total_req": 92
+ },
+ {
+  "name": "cttp_c6_t6_d5_s5_r2-3_sd1",
+  "nc": 6,
+  "nt": 6,
+  "nd": 5,
+  "ns": 5,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 1,
+  "obj": 170.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 3530,
+  "wall": 90.08,
+  "lower_bound": 158.0,
+  "num_meetings": 29,
+  "total_req": 73
+ },
+ {
+  "name": "cttp_c6_t6_d5_s5_r2-4_sd1",
+  "nc": 6,
+  "nt": 6,
+  "nd": 5,
+  "ns": 5,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 1,
+  "obj": 200.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 357,
+  "wall": 19.23,
+  "lower_bound": null,
+  "num_meetings": 27,
+  "total_req": 83
+ },
+ {
+  "name": "cttp_c6_t6_d5_s5_r2-3_sd1",
+  "nc": 6,
+  "nt": 6,
+  "nd": 5,
+  "ns": 5,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 1,
+  "obj": 170.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 3538,
+  "wall": 90.06,
+  "lower_bound": 158.0,
+  "num_meetings": 29,
+  "total_req": 73
+ },
+ {
+  "name": "cttp_c6_t6_d5_s5_r2-3_sd3",
+  "nc": 6,
+  "nt": 6,
+  "nd": 5,
+  "ns": 5,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 3,
+  "obj": 180.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 303,
+  "wall": 46.49,
+  "lower_bound": null,
+  "num_meetings": 30,
+  "total_req": 75
+ },
+ {
+  "name": "cttp_c6_t6_d5_s5_r2-4_sd1",
+  "nc": 6,
+  "nt": 6,
+  "nd": 5,
+  "ns": 5,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 1,
+  "obj": 190.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 2827,
+  "wall": 90.06,
+  "lower_bound": 180.182,
+  "num_meetings": 27,
+  "total_req": 82
+ },
+ {
+  "name": "cttp_c6_t6_d5_s5_r2-4_sd3",
+  "nc": 6,
+  "nt": 6,
+  "nd": 5,
+  "ns": 5,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 3,
+  "obj": 180.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 7791,
+  "wall": 90.07,
+  "lower_bound": 166.0,
+  "num_meetings": 26,
+  "total_req": 77
+ },
+ {
+  "name": "cttp_c8_t8_d5_s7_r2-3_sd3",
+  "nc": 8,
+  "nt": 8,
+  "nd": 5,
+  "ns": 7,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 3,
+  "obj": 180.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 632,
+  "wall": 71.42,
+  "lower_bound": null,
+  "num_meetings": 39,
+  "total_req": 102
+ },
+ {
+  "name": "cttp_c6_t6_d5_s5_r2-4_sd3",
+  "nc": 6,
+  "nt": 6,
+  "nd": 5,
+  "ns": 5,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 3,
+  "obj": 181.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 2861,
+  "wall": 90.06,
+  "lower_bound": 166.0,
+  "num_meetings": 26,
+  "total_req": 79
+ },
+ {
+  "name": "cttp_c8_t8_d5_s7_r2-3_sd1",
+  "nc": 8,
+  "nt": 8,
+  "nd": 5,
+  "ns": 7,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 1,
+  "obj": 238.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 191,
+  "wall": 90.15,
+  "lower_bound": 170.0,
+  "num_meetings": 41,
+  "total_req": 107
+ },
+ {
+  "name": "cttp_c8_t8_d5_s7_r2-3_sd2",
+  "nc": 8,
+  "nt": 8,
+  "nd": 5,
+  "ns": 7,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 2,
+  "obj": 260.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 17,
+  "wall": 90.21,
+  "lower_bound": 163.299,
+  "num_meetings": 40,
+  "total_req": 99
+ },
+ {
+  "name": "cttp_c8_t8_d5_s7_r2-4_sd3",
+  "nc": 8,
+  "nt": 8,
+  "nd": 5,
+  "ns": 7,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 3,
+  "obj": 190.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 70,
+  "wall": 14.33,
+  "lower_bound": null,
+  "num_meetings": 39,
+  "total_req": 121
+ },
+ {
+  "name": "cttp_c8_t8_d5_s7_r2-3_sd1",
+  "nc": 8,
+  "nt": 8,
+  "nd": 5,
+  "ns": 7,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 1,
+  "obj": 238.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 219,
+  "wall": 90.16,
+  "lower_bound": 170.0,
+  "num_meetings": 41,
+  "total_req": 107
+ },
+ {
+  "name": "cttp_c8_t8_d5_s7_r2-4_sd3",
+  "nc": 8,
+  "nt": 8,
+  "nd": 5,
+  "ns": 7,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 3,
+  "obj": 190.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 70,
+  "wall": 13.81,
+  "lower_bound": null,
+  "num_meetings": 39,
+  "total_req": 121
+ },
+ {
+  "name": "cttp_c8_t8_d5_s7_r2-3_sd3",
+  "nc": 8,
+  "nt": 8,
+  "nd": 5,
+  "ns": 7,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 3,
+  "obj": 180.0,
+  "optimal": true,
+  "infeasible": false,
+  "nodes": 632,
+  "wall": 68.64,
+  "lower_bound": null,
+  "num_meetings": 39,
+  "total_req": 102
+ },
+ {
+  "name": "cttp_c8_t8_d5_s7_r2-3_sd2",
+  "nc": 8,
+  "nt": 8,
+  "nd": 5,
+  "ns": 7,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   3
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 2,
+  "obj": 260.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 18,
+  "wall": 91.0,
+  "lower_bound": 163.299,
+  "num_meetings": 40,
+  "total_req": 99
+ },
+ {
+  "name": "cttp_c8_t8_d5_s7_r2-4_sd1",
+  "nc": 8,
+  "nt": 8,
+  "nd": 5,
+  "ns": 7,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 1,
+  "obj": 341.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 34,
+  "wall": 90.66,
+  "lower_bound": 210.499,
+  "num_meetings": 39,
+  "total_req": 121
+ },
+ {
+  "name": "cttp_c8_t8_d5_s7_r2-4_sd2",
+  "nc": 8,
+  "nt": 8,
+  "nd": 5,
+  "ns": 7,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.75,
+  "seed": 2,
+  "obj": 317.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 60,
+  "wall": 90.18,
+  "lower_bound": 198.787,
+  "num_meetings": 37,
+  "total_req": 115
+ },
+ {
+  "name": "cttp_c8_t8_d5_s7_r2-4_sd1",
+  "nc": 8,
+  "nt": 8,
+  "nd": 5,
+  "ns": 7,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 1,
+  "obj": 312.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 75,
+  "wall": 90.17,
+  "lower_bound": 210.087,
+  "num_meetings": 39,
+  "total_req": 123
+ },
+ {
+  "name": "cttp_c8_t8_d5_s7_r2-4_sd2",
+  "nc": 8,
+  "nt": 8,
+  "nd": 5,
+  "ns": 7,
+  "subj_range": [
+   4,
+   6
+  ],
+  "req_range": [
+   2,
+   4
+  ],
+  "day_w": 10.0,
+  "gap_w": 1.0,
+  "p_slot": 0.05,
+  "p_dayoff": 0.1,
+  "util": 0.85,
+  "seed": 2,
+  "obj": 317.0,
+  "optimal": false,
+  "infeasible": false,
+  "nodes": 55,
+  "wall": 90.15,
+  "lower_bound": 205.322,
+  "num_meetings": 37,
+  "total_req": 116
+ }
+]
