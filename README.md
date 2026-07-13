@@ -129,6 +129,19 @@ primary stop (deterministic) with `time_limit_sec` as a loose wall-clock
 fallback, per the node-limit-first testing convention used throughout this
 dataset.
 
+**`cttp` family limits** were calibrated directly (rather than scaled down
+from a 300s run) since the family didn't exist during the original
+full-coverage run: each instance was run with a 60s budget to measure how
+many nodes it reaches in about a minute, always confirming at least one
+integer-feasible solution was found by then. `node_limit` = observed nodes
+at 60s for instances that don't conclude in that window, or `3x` observed
+nodes for instances that already conclude within 60s (the infeasible
+fixture uses a small fixed margin since it's proven infeasible at the root).
+`time_limit_sec = 90` and `hard_kill_sec = 150` (time limit + 60s) for all
+18 `cttp` rows — slightly more relaxed than the other families' limits
+since CTTP's root-node cut generation can consume most of a 60s budget on
+harder instances, leaving very few nodes for branch-and-bound.
+
 ## File structure
 
 ```

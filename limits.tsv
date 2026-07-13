@@ -346,3 +346,21 @@ upms_search_n9_m2_wct_p6-22_s3-11_sd7	concluded_fast	987672	60	180	329224	44.64	
 upms_search_n9_m3_wct_p5-18_s2-9_sd7	concluded_fast	332079	60	180	110693	19.40	Optimal solution found
 upms_search_n9_m3_wct_p6-22_s3-11_sd137	concluded_fast	563928	60	180	187976	30.91	Optimal solution found
 upms_search_n9_m3_wct_p6-22_s3-11_sd7	concluded_fast	1183257	60	180	394419	48.26	Optimal solution found
+cttp_dayfocus_c6t8_sd10	concluded_fast	213	90	150	71	7.55	Optimal solution found
+cttp_gapfocus_c6t8_sd9	concluded_fast	141	90	150	47	7.97	Optimal solution found
+cttp_hard_c10t12_r2-3_sd2	not_concluded	10	90	150	1915	296.46	Stopped on time limit
+cttp_hard_c6t6_s5_r2-4_sd3	not_concluded	5125	90	150	16679	296.82	Stopped on time limit
+cttp_hard_c6t7_r2-3_sd3	not_concluded	1502	90	150	11885	297.14	Stopped on time limit
+cttp_hard_c7t9_r2-3_sd1	not_concluded	1162	90	150	4401	274.58	Stopped on time limit
+cttp_hard_c9t11_r2-4_sd1	not_concluded	718	90	150	3015	270.78	Stopped on time limit
+cttp_infeasible_c10t12_r2-4_sd2	concluded_fast	100	90	150	0	1.02	Linear relaxation infeasible
+cttp_medium_c6t8_r2-4_sd2	not_concluded	640	90	150	877	118.82	Optimal solution found
+cttp_medium_c8t8_s7_r2-3_sd3	not_concluded	285	90	150	636	100.89	Optimal solution found
+cttp_medium_c9t11_r2-4_sd3	concluded_fast	693	90	150	231	36.77	Optimal solution found
+cttp_small_c5t6_r2-3_sd1	concluded_fast	1527	90	150	509	25.76	Optimal solution found
+cttp_small_c5t6_r2-4_sd1	not_concluded	814	90	150	829	68.05	Optimal solution found
+cttp_small_c6t6_s5_r2-3_sd3	not_concluded	265	90	150	303	64.06	Optimal solution found
+cttp_small_c6t8_r2-3_sd3	not_concluded	78	90	150	113	57.16	Optimal solution found
+cttp_small_c6t8_r2-4_sd1	concluded_fast	510	90	150	243	35.76	Optimal solution found
+cttp_tiny_c4t5_r2-3_sd2	concluded_fast	204	90	150	68	12.09	Optimal solution found
+cttp_tiny_c4t5_r2-4_sd2	concluded_fast	99	90	150	33	4.84	Optimal solution found
