@@ -38,20 +38,20 @@ cvrp_search_n12_k2_varied_uniform	optimal	354.63	min	parameter-grid search (mips
 cvrp_search_n12_k3_uniform_clustered	optimal	252.05	min	parameter-grid search (mipster)
 cvrp_search_n14_k2_uniform_clustered	optimal	232.82	min	parameter-grid search (mipster)
 cvrp_search_n14_k2_varied_clustered	optimal	227.33	min	parameter-grid search (mipster)
-jssp_search_n7_m5_uniform_pt1-20_s2	optimal	130	min	parameter-grid search (mipster)
+jssp_search_n7_m5_uniform_pt1-20_s2	optimal	126	min	parameter-grid search (mipster); corrected to 126 (proven optimal, Cbc upstream B&B, cross-validated by cbc_validate_sol) - previous value 130 was not optimal
 jssp_search_n7_m6_uniform_pt1-20_s1	optimal	134	min	parameter-grid search (mipster)
 jssp_search_n7_m7_bimodal_pt1-20_s1	optimal	123	min	parameter-grid search (mipster)
 jssp_search_n7_m7_uniform_pt1-20_s2	optimal	151	min	parameter-grid search (mipster)
 jssp_search_n7_m7_uniform_pt1-99_s3	optimal	612	min	parameter-grid search (mipster)
 jssp_search_n8_m5_uniform_pt1-20_s3	optimal	115	min	parameter-grid search (mipster)
-jssp_search_n8_m6_bimodal_pt1-99_s1	optimal	499	min	parameter-grid search (mipster)
+jssp_search_n8_m6_bimodal_pt1-99_s1	optimal	498	min	parameter-grid search (mipster); corrected to 498 (proven optimal, Cbc upstream B&B, cross-validated by cbc_validate_sol) - previous value 499 was not optimal
 jssp_search_n8_m6_skewed_pt1-20_s2	optimal	143	min	parameter-grid search (mipster)
 jssp_search_n8_m7_skewed_pt1-50_s2	optimal	457	min	parameter-grid search (mipster)
 jssp_search_n9_m5_bimodal_pt1-50_s2	optimal	339	min	parameter-grid search (mipster)
 jssp_search_n9_m5_skewed_pt1-50_s1	optimal	334	min	parameter-grid search (mipster)
 jssp_search_n9_m6_skewed_pt1-20_s3	optimal	191	min	parameter-grid search (mipster)
 jssp_search_n9_m7_bimodal_pt1-99_s2	optimal	695	min	parameter-grid search (mipster)
-jssp_search_n9_m7_skewed_pt1-20_s3	optimal	164	min	parameter-grid search (mipster)
+jssp_search_n9_m7_skewed_pt1-20_s3	optimal	161	min	parameter-grid search (mipster); corrected to 161 (proven optimal, Cbc upstream B&B, cross-validated by cbc_validate_sol) - previous value 164 was not optimal
 jssp_search_n9_m7_skewed_pt1-50_s3	optimal	536	min	parameter-grid search (mipster)
 qap_n4_s42_uniform_euclidean	optimal	5809	min	generated (mipster)
 qap_n5_s137_sparse_manhattan	optimal	6070	min	generated (mipster)
