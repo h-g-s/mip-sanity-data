@@ -2,11 +2,16 @@
 
 ## Overview
 
-**16 problem families, 365 instances.** Each instance ships as a `.mps.gz` file
-with a certified best-known (in most cases optimal) objective value in
-`bks.tsv` and at least one reference integer-feasible solution in `sols/`.
-Every family has a generator under `generators/<family>/` so the dataset can
-be regenerated, extended, or ported to another solver's test suite.
+**16 generated problem families (365 instances) plus 6 imported MIPLIB
+reference instances — 371 instances total.** Each instance ships as a
+`.mps.gz` file with a certified best-known (in most cases optimal)
+objective value in `bks.tsv` and at least one reference integer-feasible
+solution in `sols/`. Every generated family has a generator under
+`generators/<family>/` so the dataset can be regenerated, extended, or
+ported to another solver's test suite. The 6 imported instances are
+real-world MIPLIB 2017(+spp) instances taken directly from MIPster's own
+C-interface regression test suite (`test/fixtures/`), included here for
+extra external-benchmark coverage.
 
 ## Dataset with interesting mip instances (in .mps.gz) for quick tests with reference:
 
@@ -53,6 +58,30 @@ be regenerated, extended, or ported to another solver's test suite.
 | [`hop_nd`](generators/hop_nd) | 24 | Hop-Constrained Network Design — binary edge-install decisions supporting multi-commodity flow with a hop limit, enforced via a layered (time-expanded) graph; capacity is shared across commodities on each built edge. |
 | [`sppc`](generators/sppc) | 20 | Generalized Set Partitioning/Packing/Covering — a single binary program mixing `=1`/`<=1`/`>=1` row types over one shared column set (crew-scheduling style); dense overlapping packing/covering rows force genuine branch-and-bound; specifically designed to exercise the conflict-graph structure over both original and complemented literals. Includes a permanent bug-repro fixture for a known MIPster preprocessing wrong-optimal issue. |
 | [`cttp`](generators/cttp) | 18 | Class-Teacher Timetabling (Santos-style) — assign each class/teacher meeting's weekly lessons to day/timeslot "patterns" (1 lesson, or 2 consecutive lessons per day); binds teacher and class occupancy across all meetings, so it is not decomposable per pair. Objective minimizes (1) number of teacher-days-used ("day-off" preference) and (2) within-day idle gaps in a teacher's schedule; supports per-teacher-day/timeslot unavailability. Includes a genuinely infeasible fixture and two weight-variant fixtures (gap-focused vs. day-focused objective). |
+
+## Imported instances (non-generated)
+
+6 real-world MIPLIB 2017(+spp) instances imported directly from MIPster's
+own C-interface regression test suite (`test/fixtures/` in the `mipster`
+repo), rather than produced by a generator. No `generators/` subfolder
+exists for these — they ship only as `.mps.gz` + `.sol` + `bks.tsv`/
+`features.tsv`/`limits.tsv` rows like any other instance.
+
+| Instance | Rows × Cols | Description | Status |
+|---|---|---|---|
+| `A-1` | 1015 × 18598 | Project-scheduling instance (MIPLIB 2017). | optimal (3200022), matches MIPster's own test suite |
+| `attfInst1` | 1187 × 1163 | ATIF multi-commodity flow instance (MIPLIB 2017+spp). | optimal (202); MIPster validates the incumbent as feasible but doesn't close the gap within 90s itself — confirmed at 0% gap independently |
+| `graphdraw-domain` | 865 × 254 | Graph-drawing / entity-placement instance (MIPLIB 2017). | optimal (19686); documented as "hard" in MIPster's own test, but closes to 0% gap in well under a minute with a different MILP solver |
+| `leo1` | 593 × 6731 | Set packing/covering instance from the COR@L test set (MIPLIB 2017). | optimal (404227536.16), matches the MIPLIB-certified value exactly |
+| `yue20013.1.150` | 3684 × 874 | Instance from the fonsecasantos collection (MIPLIB 2017+spp). | optimal (29), matches MIPster's own test suite |
+| `j3041_1` | 344 × 801 | MIPLIB 2017+spp instance. | optimal (3), matches MIPster's own test suite |
+
+For `attfInst1`, `graphdraw-domain`, and `leo1`, MIPster's own default
+solve does not close the optimality gap within a short time budget (this
+is expected and documented in MIPster's own tests) — the certified/
+independently-verified optimal value was used to seed MIPster via
+`-mipStart`, and MIPster validated the resulting solution as feasible
+before writing the reference `.sol` file.
 
 ## Solver coverage (full-run snapshot)
 
