@@ -70,7 +70,7 @@ exists for these — they ship only as `.mps.gz` + `.sol` + `bks.tsv`/
 | Instance | Rows × Cols | Description | Status |
 |---|---|---|---|
 | `A-1` | 1015 × 18598 | Project-scheduling instance (MIPLIB 2017). | optimal (3200022), matches MIPster's own test suite |
-| `attfInst1` | 1187 × 1163 | ATIF multi-commodity flow instance (MIPLIB 2017+spp). | optimal (202); MIPster validates the incumbent as feasible but doesn't close the gap within 90s itself — confirmed at 0% gap independently |
+| `attfInst1` | 1187 × 1163 | ATIF multi-commodity flow instance (MIPLIB 2017+spp). | optimal (202); MIPster validates the incumbent as feasible but doesn't close the gap within 150s itself — confirmed at 0% gap independently |
 | `graphdraw-domain` | 865 × 254 | Graph-drawing / entity-placement instance (MIPLIB 2017). | optimal (19686); documented as "hard" in MIPster's own test, but closes to 0% gap in well under a minute with a different MILP solver |
 | `leo1` | 593 × 6731 | Set packing/covering instance from the COR@L test set (MIPLIB 2017). | optimal (404227536.16), matches the MIPLIB-certified value exactly |
 | `yue20013.1.150` | 3684 × 874 | Instance from the fonsecasantos collection (MIPLIB 2017+spp). | optimal (29), matches MIPster's own test suite |
@@ -166,9 +166,9 @@ integer-feasible solution was found by then. `node_limit` = observed nodes
 at 60s for instances that don't conclude in that window, or `3x` observed
 nodes for instances that already conclude within 60s (the infeasible
 fixture uses a small fixed margin since it's proven infeasible at the root).
-`time_limit_sec = 90` and `hard_kill_sec = 150` (time limit + 60s) for all
-18 `cttp` rows — slightly more relaxed than the other families' limits
-since CTTP's root-node cut generation can consume most of a 60s budget on
+`time_limit_sec = 150` and `hard_kill_sec = 300` for all
+18 `cttp` rows — more relaxed than the other families' limits since
+CTTP's root-node cut generation can consume most of a 60s budget on
 harder instances, leaving very few nodes for branch-and-bound.
 
 ## File structure
