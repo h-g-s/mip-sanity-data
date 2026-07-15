@@ -22,7 +22,7 @@ bpc_search_n16_c100_sd7_random_d0.3_uniform	concluded_fast	12684	120	300	4228	33
 bpc_search_n16_c150_sd42_random_d0.25_uniform	concluded_fast	15762	120	300	5254	33.83	Optimal solution found
 cvrp_asymmetric	concluded_fast	354	120	300	118	1.18	Optimal solution found
 cvrp_capacity_loose	concluded_fast	1968	120	300	656	4.93	Optimal solution found
-cvrp_capacity_medium	not_concluded	115559	120	300	578024	300.12	Stopped on time limit
+cvrp_capacity_medium	not_concluded	39194	120	180	78541	120.23	Stopped on time limit
 cvrp_capacity_tight	concluded_fast	606	120	300	202	2.65	Problem proven infeasible
 cvrp_demand_outliers	concluded_fast	49362	120	300	16454	13.58	Optimal solution found
 cvrp_demand_skewed	concluded_fast	2376	120	300	792	3.73	Optimal solution found
@@ -35,7 +35,7 @@ cvrp_high_utilization	not_concluded	24448	120	300	122327	300.21	Stopped on time 
 cvrp_large_scale	concluded_fast	5760	120	300	1920	4.88	Optimal solution found
 cvrp_loose	concluded_fast	0	120	300	0	0.17	Optimal solution found
 cvrp_many_small	concluded_fast	4692	120	300	1564	8.85	Optimal solution found
-cvrp_medium	concluded_slow	648759	120	240	216253	91.5	Optimal solution found
+cvrp_medium	not_concluded	42909	120	180	85930	120.16	Stopped on time limit
 cvrp_medium_scale	concluded_fast	18774	120	300	6258	2.92	Optimal solution found
 cvrp_search_n10_k2_skewed_uniform_b	concluded_fast	52041	120	300	17347	9.47	Optimal solution found
 cvrp_search_n10_k2_uniform_clustered	concluded_fast	106860	120	300	35620	11.5	Optimal solution found
@@ -83,26 +83,26 @@ gap_4a35t_sd42_tight_anticorr_uniform	concluded_fast	5115	120	300	1705	0.87	Opti
 gap_4a40t_sd42_tight_anticorr_variable	concluded_fast	18522	120	300	6174	1.32	Optimal solution found
 gap_5a20t_sd137_tight_structured_uniform	concluded_fast	0	120	300	0	0.01	Optimal solution found
 gap_5a20t_sd42_tight_uniform_uniform	concluded_fast	0	120	300	0	0.01	Optimal solution found
-gap_5a30t_sd42_tight_anticorr_variable	concluded_fast	30276	120	300	10092	8.35	Optimal solution found
+gap_5a30t_sd42_tight_anticorr_variable	not_concluded	4531	120	180	9064	120.03	Stopped on time limit
 gap_5a35t_sd137_tight_anticorr_variable	concluded_fast	36702	120	300	12234	10.57	Optimal solution found
 gap_6a30t_sd137_tight_anticorr_heavy	concluded_fast	35880	120	300	11960	14.38	Optimal solution found
 gap_6a30t_sd42_tight_anticorr_uniform	concluded_fast	5376	120	300	1792	3.01	Optimal solution found
 gap_6a35t_sd42_tight_anticorr_uniform	concluded_fast	930	120	300	310	1.68	Optimal solution found
 gap_search_6a30t_sd1_a1.12_heavy	concluded_fast	42885	120	300	14295	12.46	Optimal solution found
 gap_search_6a30t_sd2_a1.1_heavy	concluded_fast	45423	120	300	15141	13.37	Optimal solution found
-gap_search_6a32t_sd1_a1.1_heavy	concluded_fast	80250	120	300	26750	33.89	Optimal solution found
-gap_search_6a35t_sd2_a1.1_heavy	concluded_fast	102588	120	300	34196	39.95	Optimal solution found
-gap_search_6a35t_sd3_a1.12_variable	concluded_fast	119244	120	300	39748	58.1	Optimal solution found
-gap_search_6a35t_sd3_a1.1_heavy	concluded_fast	35898	120	300	11966	9.95	Optimal solution found
+gap_search_6a32t_sd1_a1.1_heavy	not_concluded	16105	120	180	32262	120.19	Stopped on time limit
+gap_search_6a35t_sd2_a1.1_heavy	not_concluded	13119	120	180	26265	120.12	Stopped on time limit
+gap_search_6a35t_sd3_a1.12_variable	not_concluded	14418	120	180	28891	120.23	Stopped on time limit
+gap_search_6a35t_sd3_a1.1_heavy	not_concluded	16504	120	180	33045	120.14	Stopped on time limit
 gap_search_6a38t_sd1_a1.12_heavy	concluded_fast	35925	120	300	11975	10.45	Optimal solution found
-gap_search_7a30t_sd1_a1.1_variable	concluded_fast	76710	120	300	25570	34.2	Optimal solution found
-gap_search_7a30t_sd3_a1.12_heavy	concluded_fast	47304	120	300	15768	19.52	Optimal solution found
+gap_search_7a30t_sd1_a1.1_variable	not_concluded	15600	120	180	31234	120.13	Stopped on time limit
+gap_search_7a30t_sd3_a1.12_heavy	not_concluded	13738	120	180	27533	120.25	Stopped on time limit
 gap_search_7a30t_sd3_a1.15_variable	concluded_fast	33198	120	300	11066	10.27	Optimal solution found
 gap_search_7a32t_sd4_a1.1_variable	concluded_fast	33906	120	300	11302	12.76	Optimal solution found
-gap_search_7a35t_sd2_a1.12_variable	concluded_slow	109761	120	240	36587	62.6	Optimal solution found
+gap_search_7a35t_sd2_a1.12_variable	not_concluded	14014	120	180	28058	120.13	Stopped on time limit
 gap_search_7a35t_sd4_a1.1_heavy	concluded_fast	33405	120	300	11135	13.91	Optimal solution found
 gap_search_7a38t_sd2_a1.1_variable	concluded_fast	33195	120	300	11065	11.96	Optimal solution found
-gap_search_7a38t_sd3_a1.12_variable	concluded_fast	60390	120	300	20130	34.12	Optimal solution found
+gap_search_7a38t_sd3_a1.12_variable	not_concluded	20011	120	180	40160	120.41	Stopped on time limit
 gc_complete_k6	concluded_fast	0	120	300	0	0	Optimal solution found
 gc_cycle_c4_bipartite	concluded_fast	0	120	300	0	0	Optimal solution found
 gc_cycle_c5	concluded_fast	0	120	300	0	0	Optimal solution found
@@ -127,7 +127,7 @@ gc_random_n56_p0.4_sd3	concluded_slow	798	120	240	266	64.84	Optimal solution fou
 gc_random_n56_p0.5_sd3	concluded_fast	636	120	300	212	32.28	Optimal solution found
 gc_random_n58_p0.5_sd1	concluded_fast	126	120	300	42	18.64	Optimal solution found
 gc_random_n58_p0.6_sd1	concluded_fast	1134	120	300	378	49.8	Optimal solution found
-gc_random_n60_p0.4_sd5	concluded_slow	441	120	240	147	69.84	Optimal solution found
+gc_random_n60_p0.4_sd5	not_concluded	126	120	180	253	120.37	Stopped on time limit
 gc_random_n60_p0.6_sd1	concluded_fast	900	120	300	300	32.82	Optimal solution found
 gc_triangle_k3	concluded_fast	0	120	300	0	0	Optimal solution found
 hcnd_medium_dense	concluded_fast	24	120	300	8	2.3	Optimal solution found
@@ -155,11 +155,11 @@ hcnd_tiny_hop1	concluded_fast	0	120	300	0	0	Optimal solution found
 hcnd_tiny_hopchoice	concluded_fast	0	120	300	0	0	Optimal solution found
 hcnd_tiny_shared	concluded_fast	0	120	300	0	0	Optimal solution found
 jssp_ft06	concluded_fast	13077	120	300	4359	3.18	Optimal solution found
-jssp_ft10	not_concluded	39486	120	300	198020	300.9	Stopped on time limit
-jssp_la01	not_concluded	209345	120	300	1048120	300.4	Stopped on time limit
-jssp_la06	not_concluded	160986	120	300	805978	300.39	Stopped on time limit
+jssp_ft10	not_concluded	9455	120	180	18945	120.22	Stopped on time limit
+jssp_la01	not_concluded	19850	120	180	39794	120.29	Stopped on time limit
+jssp_la06	not_concluded	7150	120	180	14322	120.19	Stopped on time limit
 jssp_la11	not_concluded	6061	120	300	30325	300.19	Stopped on time limit
-jssp_orb01	not_concluded	162561	120	300	813672	300.32	Stopped on time limit
+jssp_orb01	not_concluded	11109	120	180	22255	120.20	Stopped on time limit
 jssp_search_n7_m5_uniform_pt1-20_s2	concluded_fast	204996	120	300	68332	20.06	Optimal solution found
 jssp_search_n7_m6_uniform_pt1-20_s1	concluded_fast	219738	120	300	73246	27.65	Optimal solution found
 jssp_search_n7_m7_bimodal_pt1-20_s1	concluded_fast	88416	120	300	29472	11.27	Optimal solution found
@@ -169,7 +169,7 @@ jssp_search_n8_m5_uniform_pt1-20_s3	concluded_fast	92127	120	300	30709	12.05	Opt
 jssp_search_n8_m6_bimodal_pt1-99_s1	concluded_fast	82134	120	300	27378	11.69	Optimal solution found
 jssp_search_n8_m6_skewed_pt1-20_s2	concluded_fast	121437	120	300	40479	18.28	Optimal solution found
 jssp_search_n8_m7_skewed_pt1-50_s2	concluded_fast	346428	120	300	115476	29.8	Optimal solution found (within gap tolerance)
-jssp_search_n9_m5_bimodal_pt1-50_s2	concluded_fast	82437	120	300	27479	18.11	Optimal solution found
+jssp_search_n9_m5_bimodal_pt1-50_s2	not_concluded	32872	120	180	65778	120.06	Stopped on time limit
 jssp_search_n9_m5_skewed_pt1-50_s1	concluded_fast	101511	120	300	33837	28.75	Optimal solution found (within gap tolerance)
 jssp_search_n9_m6_skewed_pt1-20_s3	concluded_fast	189426	120	300	63142	26.26	Optimal solution found
 jssp_search_n9_m7_bimodal_pt1-99_s2	concluded_fast	232170	120	300	77390	46.46	Optimal solution found
@@ -194,7 +194,7 @@ mis_search_n110_ep0.2_uniform_s2	concluded_fast	1986	120	300	662	13.64	Optimal s
 mis_search_n110_ep0.2_unit_s2	concluded_fast	6540	120	300	2180	31.02	Optimal solution found
 mis_search_n120_ep0.25_diverse_s1	concluded_fast	186	120	300	62	12.68	Optimal solution found
 mis_search_n120_ep0.3_uniform_s2	concluded_fast	1086	120	300	362	25.15	Optimal solution found
-mis_search_n120_ep0.4_unit_s2	concluded_fast	4170	120	300	1390	50.45	Optimal solution found
+mis_search_n120_ep0.4_unit_s2	not_concluded	153	120	180	307	120.36	Stopped on time limit
 mis_search_n130_ep0.2_diverse_s3	concluded_fast	270	120	300	90	12.63	Optimal solution found
 mis_search_n130_ep0.2_uniform_s1	concluded_fast	1308	120	300	436	21.38	Optimal solution found
 mis_search_n130_ep0.3_uniform_s3	concluded_fast	3978	120	300	1326	39.25	Optimal solution found
@@ -215,8 +215,8 @@ qap_search_n7_hub_manhattan_s3	concluded_fast	2448	120	300	816	10.73	Optimal sol
 qap_search_n7_uniform_grid_s2	concluded_fast	11880	120	300	3960	26.52	Optimal solution found
 qap_search_n7_uniform_manhattan_s1	concluded_fast	15222	120	300	5074	30.54	Optimal solution found
 qap_search_n7_uniform_manhattan_s3	concluded_fast	9756	120	300	3252	20.78	Optimal solution found
-qap_search_n8_hub_euclidean_s1	concluded_fast	37062	120	300	12354	59.83	Optimal solution found
-qap_search_n8_hub_grid_s3	concluded_fast	27408	120	300	9136	47.35	Optimal solution found
+qap_search_n8_hub_euclidean_s1	not_concluded	8914	120	180	17844	120.11	Stopped on time limit
+qap_search_n8_hub_grid_s3	not_concluded	9500	120	180	19025	120.16	Stopped on time limit
 qap_search_n8_sparse_grid_s4	concluded_fast	7908	120	300	2636	14.63	Optimal solution found
 qap_search_n8_sparse_manhattan_s1	concluded_fast	30384	120	300	10128	10.39	Optimal solution found
 rcpsp_n10_r2_ep0.4_s42	concluded_fast	17859	120	300	5953	13.81	Optimal solution found
@@ -326,26 +326,26 @@ tsp_euclidean_n6_sd1	concluded_fast	0	120	300	0	0.02	Optimal solution found
 tsp_euclidean_n7_sd1	concluded_fast	0	120	300	0	0.03	Optimal solution found
 tsp_euclidean_n8_sd1	concluded_fast	0	120	300	0	0.14	Optimal solution found
 upms_n7_m3_int_wct_s137	concluded_fast	122949	120	300	40983	5.05	Optimal solution found
-upms_n8_m2_int_cmax_s42	concluded_fast	789384	120	300	263128	28.4	Optimal solution found
+upms_n8_m2_int_cmax_s42	not_concluded	110615	120	180	221847	120.33	Stopped on time limit
 upms_n8_m3_frac_cmax_s42	concluded_fast	142563	120	300	47521	6.28	Optimal solution found
 upms_n8_m3_int_wct_s42	concluded_fast	297840	120	300	99280	13.46	Optimal solution found
-upms_n9_m2_lgset_cmax_s137	concluded_slow	9524730	300	420	3174910	272.96	Optimal solution found (within gap tolerance)
-upms_n9_m3_int_cmax_s137	not_concluded	570893	120	300	2861222	300.71	Stopped on time limit
+upms_n9_m2_lgset_cmax_s137	not_concluded	148251	120	180	742912	300.67	Stopped on time limit
+upms_n9_m3_int_cmax_s137	not_concluded	70612	120	180	141399	120.15	Stopped on time limit
 upms_search_n7_m2_cmax_p5-18_s8-22_sd21	concluded_fast	485349	120	300	161783	13.96	Optimal solution found
 upms_search_n7_m3_cmax_p5-18_s8-22_sd21	concluded_fast	299616	120	300	99872	9.99	Optimal solution found
 upms_search_n7_m3_wct_p6-22_s3-11_sd137	concluded_fast	280599	120	300	93533	11.21	Optimal solution found
 upms_search_n8_m2_cmax_p5-18_s2-9_sd42	concluded_fast	405309	120	300	135103	14.02	Optimal solution found (within gap tolerance)
-upms_search_n8_m2_cmax_p6-22_s3-11_sd99	concluded_fast	1341600	120	300	447200	33.45	Optimal solution found
+upms_search_n8_m2_cmax_p6-22_s3-11_sd99	not_concluded	78925	120	180	157868	120.01	Stopped on time limit
 upms_search_n8_m2_wct_p6-22_s3-11_sd7	concluded_fast	304815	120	300	101605	11.33	Optimal solution found
 upms_search_n8_m2_wct_p7-25_s3-12_sd42	concluded_fast	620028	120	300	206676	20.38	Optimal solution found
 upms_search_n8_m3_cmax_p5-18_s2-9_sd42	concluded_fast	379329	120	300	126443	17.04	Optimal solution found
 upms_search_n8_m3_cmax_p5-18_s8-22_sd7	concluded_fast	269772	120	300	89924	12.58	Optimal solution found
 upms_search_n8_m3_cmax_p7-25_s3-12_sd7	concluded_fast	639804	120	300	213268	25.76	Optimal solution found
-upms_search_n8_m3_wct_p5-18_s2-9_sd137	concluded_fast	265122	120	300	88374	12.56	Optimal solution found
+upms_search_n8_m3_wct_p5-18_s2-9_sd137	not_concluded	107991	120	180	216169	120.10	Stopped on time limit
 upms_search_n9_m2_wct_p6-22_s3-11_sd7	concluded_fast	987672	120	300	329224	44.64	Optimal solution found
 upms_search_n9_m3_wct_p5-18_s2-9_sd7	concluded_fast	332079	120	300	110693	19.4	Optimal solution found
-upms_search_n9_m3_wct_p6-22_s3-11_sd137	concluded_fast	563928	120	300	187976	30.91	Optimal solution found
-upms_search_n9_m3_wct_p6-22_s3-11_sd7	concluded_fast	1183257	120	300	394419	48.26	Optimal solution found
+upms_search_n9_m3_wct_p6-22_s3-11_sd137	not_concluded	89903	120	180	179874	120.05	Stopped on time limit
+upms_search_n9_m3_wct_p6-22_s3-11_sd7	not_concluded	117220	120	180	235317	120.45	Stopped on time limit
 cttp_dayfocus_c6t8_sd10	concluded_fast	213	150	300	71	7.55	Optimal solution found
 cttp_gapfocus_c6t8_sd9	concluded_fast	141	150	300	47	7.97	Optimal solution found
 cttp_hard_c10t12_r2-3_sd2	not_concluded	10	150	300	1915	296.46	Stopped on time limit
@@ -366,7 +366,7 @@ cttp_tiny_c4t5_r2-3_sd2	concluded_fast	204	150	300	68	12.09	Optimal solution fou
 cttp_tiny_c4t5_r2-4_sd2	concluded_fast	99	150	300	33	4.84	Optimal solution found
 A-1	concluded_fast	249	150	300	83	30.28	Optimal solution found
 attfInst1	not_concluded	2448	150	300	2448	59.28	Stopped on time limit
-graphdraw-domain	not_concluded	28922	150	300	28922	59.24	Stopped on time limit
+graphdraw-domain	not_concluded	6268	120	180	15694	150.24	Stopped on time limit
 j3041_1	concluded_fast	87	150	300	29	4.6	Optimal solution found
 leo1	not_concluded	452	150	300	452	59.36	Stopped on time limit
 yue20013.1.150	concluded_fast	1566	150	300	522	20.85	Optimal solution found
