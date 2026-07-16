@@ -3,15 +3,17 @@
 ## Overview
 
 **16 generated problem families (365 instances) plus 6 imported MIPLIB
-reference instances — 371 instances total.** Each instance ships as a
-`.mps.gz` file with a certified best-known (in most cases optimal)
-objective value in `bks.tsv` and at least one reference integer-feasible
-solution in `sols/`. Every generated family has a generator under
-`generators/<family>/` so the dataset can be regenerated, extended, or
-ported to another solver's test suite. The 6 imported instances are
-real-world MIPLIB 2017(+spp) instances taken directly from MIPster's own
-C-interface regression test suite (`test/fixtures/`), included here for
-extra external-benchmark coverage.
+2017(+spp) reference instances plus 65 imported MIPLIB3 (1996 classic set)
+instances — 436 instances total.** Each instance ships as a `.mps.gz` file
+with a certified best-known (in most cases optimal) objective value in
+`bks.tsv` and at least one reference integer-feasible solution in `sols/`.
+Every generated family has a generator under `generators/<family>/` so the
+dataset can be regenerated, extended, or ported to another solver's test
+suite. The 6 MIPLIB 2017(+spp) instances are taken directly from MIPster's
+own C-interface regression test suite (`test/fixtures/`), included here for
+extra external-benchmark coverage. The 65 MIPLIB3 instances are the classic
+real-world 1996 MIPLIB benchmark set, included for broad, well-known
+regression coverage.
 
 ## Dataset with interesting mip instances (in .mps.gz) for quick tests with reference:
 
@@ -82,6 +84,40 @@ is expected and documented in MIPster's own tests) — the certified/
 independently-verified optimal value was used to seed MIPster via
 `-mipStart`, and MIPster validated the resulting solution as feasible
 before writing the reference `.sol` file.
+
+## MIPLIB3 instances (non-generated)
+
+65 real-world instances from the classic 1996 MIPLIB benchmark set
+(`miplib.cat`/`mps_format`/`references` metadata files excluded), compressed
+to `.mps.gz` and validated the same way as every other instance in this
+repo. As with the MIPLIB 2017(+spp) imports above, no `generators/`
+subfolder exists for these.
+
+61 of the 65 are proven optimal (bks status `optimal`); 4 remain open and
+are recorded as `best_known`:
+
+| Instance | Best known objective | Notes |
+|---|---|---|
+| `dano3mip` | 688.85 | ~16% gap remaining; notably better than the classic catalog value (728.11). See special limits note below. |
+| `markshare2` | 14 | 100% reported gap — this instance is famous for an extremely weak/degenerate LP relaxation that provides essentially no useful lower bound; real integer-feasible solutions are found readily, satisfying the "interesting instance" bar. |
+| `seymour` | 423 | ~0.7% gap remaining; matches the classic catalog's own "(not opt)" value exactly. |
+| `swath` | 467.41 | ~8.6% gap remaining. |
+
+**`dano3mip` special limits:** this instance's root-node cut generation and
+postprocessing phases are not interruptible by MIPster's nominal time-limit
+check, so a naive 120s/300s limit pair can significantly overrun (observed:
+an internal budget of 60s overran to 163s in calibration, and an internal
+budget of 240s overran to ~320s in later testing). To keep this instance
+usable for quick tests while avoiding hard-kill truncation mid-phase, it is
+given relaxed limits (`time_limit_sec=240`, `hard_kill_sec=480`) instead of
+the file-wide default (`120`/`300`).
+
+Reference solutions for all 65 instances were obtained directly from an
+independent MILP solver's native `.sol` output (copied as-is into `sols/`)
+and validated feasible with MIPster's own `mipster_validate_sol` tool —
+this avoids a discovered MIPster preprocessing/mipStart interaction issue
+that can silently corrupt a seeded incumbent when preprocessing is enabled
+(tracked separately, out of scope for this dataset).
 
 ## Solver coverage (full-run snapshot)
 

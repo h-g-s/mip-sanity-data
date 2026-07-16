@@ -370,3 +370,68 @@ graphdraw-domain	not_concluded	6268	120	180	15694	150.24	Stopped on time limit
 j3041_1	concluded_fast	87	150	300	29	4.6	Optimal solution found
 leo1	not_concluded	452	150	300	452	59.36	Stopped on time limit
 yue20013.1.150	concluded_fast	1566	150	300	522	20.85	Optimal solution found
+10teams	concluded_fast	444	120	300	148	6.45	Optimal solution found
+air03	concluded_fast	10	120	300	0	1.62	Optimal solution found
+air04	not_concluded	5	120	300	0	60.10	Stopped on time limit
+air05	not_concluded	383	120	300	383	60.07	Stopped on time limit
+arki001	not_concluded	2831	120	300	2831	60.14	Stopped on time limit
+bell3a	concluded_fast	170496	120	300	56832	4.40	Optimal solution found
+bell5	concluded_fast	71337	120	300	23779	2.47	Optimal solution found
+blend2	concluded_fast	162378	120	300	54126	10.07	Optimal solution found
+cap6000	concluded_fast	22869	120	300	7623	2.17	Optimal solution found (within gap tolerance)
+dano3mip	not_concluded	5	240	480	0	163.45	Stopped on time limit
+danoint	not_concluded	1458	120	300	1458	60.22	Stopped on time limit
+dcmulti	concluded_fast	132	120	300	44	7.97	Optimal solution found
+dsbmip	concluded_fast	10	120	300	0	1.02	Optimal solution found (within gap tolerance)
+egout	concluded_fast	10	120	300	0	0.02	Optimal solution found (within gap tolerance)
+enigma	concluded_fast	23553	120	300	7851	1.21	Optimal solution found
+fast0507	not_concluded	26	120	300	26	60.47	Stopped on time limit
+fiber	concluded_fast	360	120	300	120	1.96	Optimal solution found
+fixnet6	concluded_fast	12	120	300	4	2.47	Optimal solution found
+flugpl	concluded_fast	16806	120	300	5602	0.23	Optimal solution found
+gen	concluded_fast	10	120	300	0	0.10	Optimal solution found
+gesa2	concluded_fast	105	120	300	35	1.72	Optimal solution found (within gap tolerance)
+gesa2_o	not_concluded	45365	120	300	45365	60.05	Stopped on time limit
+gesa3	concluded_fast	30	120	300	10	1.80	Optimal solution found
+gesa3_o	concluded_fast	102	120	300	34	7.34	Optimal solution found
+gt2	concluded_fast	15	120	300	5	0.08	Optimal solution found
+harp2	not_concluded	15235	120	300	15235	60.09	Stopped on time limit
+khb05250	concluded_fast	24	120	300	8	0.47	Optimal solution found
+l152lav	concluded_fast	3774	120	300	1258	3.69	Optimal solution found
+lseu	concluded_fast	6882	120	300	2294	0.80	Optimal solution found
+markshare1	not_concluded	2569856	120	300	2569856	60.81	Stopped on time limit
+markshare2	not_concluded	2218849	120	300	2218849	61.16	Stopped on time limit
+mas74	not_concluded	853697	120	300	853697	60.65	Stopped on time limit
+mas76	not_concluded	1135159	120	300	1135159	60.08	Stopped on time limit
+misc03	concluded_fast	1224	120	300	408	3.51	Optimal solution found
+misc06	concluded_fast	10	120	300	2	0.91	Optimal solution found
+misc07	not_concluded	12319	120	300	12319	60.05	Stopped on time limit
+mitre	concluded_fast	10	120	300	0	2.11	Optimal solution found
+mkc	not_concluded	769	120	300	769	60.07	Stopped on time limit
+mod008	concluded_fast	18	120	300	6	0.19	Optimal solution found
+mod010	concluded_fast	10	120	300	0	0.86	Optimal solution found
+mod011	not_concluded	5	120	300	0	60.30	Stopped on time limit
+modglob	concluded_fast	1356	120	300	452	2.46	Optimal solution found
+noswot	not_concluded	466973	120	300	466973	60.14	Stopped on time limit
+nw04	not_concluded	245	120	300	245	60.24	Stopped on time limit
+p0033	concluded_fast	10	120	300	0	0.06	Optimal solution found
+p0201	concluded_fast	132	120	300	44	2.52	Optimal solution found
+p0282	concluded_fast	30	120	300	10	1.74	Optimal solution found
+p0548	concluded_fast	10	120	300	0	0.24	Optimal solution found
+p2756	concluded_fast	408	120	300	136	3.01	Optimal solution found
+pk1	not_concluded	335096	120	300	335096	60.08	Stopped on time limit
+pp08a	concluded_fast	1284	120	300	428	4.76	Optimal solution found
+pp08aCUTS	concluded_fast	1773	120	300	591	7.24	Optimal solution found
+qiu	not_concluded	2748	120	300	2748	60.08	Stopped on time limit
+qnet1	concluded_fast	381	120	300	127	6.52	Optimal solution found
+qnet1_o	concluded_fast	306	120	300	102	4.48	Optimal solution found
+rentacar	concluded_fast	36	120	300	12	9.16	Optimal solution found
+rgn	concluded_fast	4320	120	300	1440	0.93	Optimal solution found
+rout	not_concluded	11573	120	300	11573	60.04	Stopped on time limit
+set1ch	concluded_fast	49731	120	300	16577	15.29	Optimal solution found
+seymour	not_concluded	16	120	300	16	60.80	Stopped on time limit
+stein27	concluded_fast	10107	120	300	3369	0.95	Optimal solution found
+stein45	concluded_fast	193332	120	300	64444	26.30	Optimal solution found
+swath	not_concluded	4312	120	300	4312	60.04	Stopped on time limit
+vpm1	concluded_fast	10	120	300	0	0.13	Optimal solution found
+vpm2	concluded_fast	62163	120	300	20721	9.65	Optimal solution found
