@@ -435,3 +435,36 @@ stein45	optimal	30	min	MIPLIB3 (1996 classic set); value verified/improved with 
 swath	best_known	467.407491	min	MIPLIB3 (1996 classic set); value verified/improved with an independent MILP solver, validated feasible via mipster_validate_sol
 vpm1	optimal	20	min	MIPLIB3 (1996 classic set); value verified/improved with an independent MILP solver, validated feasible via mipster_validate_sol
 vpm2	optimal	13.75	min	MIPLIB3 (1996 classic set); value verified/improved with an independent MILP solver, validated feasible via mipster_validate_sol
+a05100	optimal	1698	min	public MIP benchmark instance (CBC regression test set)
+a10100	optimal	1360	min	public MIP benchmark instance (CBC regression test set)
+a10200	optimal	2623	min	public MIP benchmark instance (CBC regression test set, extended/super set)
+a20200	optimal	2339	min	public MIP benchmark instance (CBC regression test set, extended/super set)
+c05100	optimal	1931	min	public MIP benchmark instance (CBC regression test set, extended/super set)
+drayage-100-23	optimal	103333.8740730286	min	public MIP benchmark instance (CBC regression test set, extended/super set); re-solved independently to confirm result
+dt_optimization	optimal	202.1852528173	min	public MIP benchmark instance (CBC regression test set); re-solved independently to confirm result
+eilB76	optimal	1066.185428	min	public MIP benchmark instance (CBC regression test set)
+eilC76	optimal	852.4106519999999	min	public MIP benchmark instance (CBC regression test set)
+enlight_hard	optimal	37	min	public MIP benchmark instance (CBC regression test set)
+exp-1-500-5-5	optimal	65887	min	public MIP benchmark instance (CBC regression test set)
+h80x6320	optimal	3700	min	public MIP benchmark instance (CBC regression test set)
+haprp	optimal	3673280.681685	min	public MIP benchmark instance (CBC regression test set); re-solved independently to confirm result
+irp	optimal	12159.492836	min	public MIP benchmark instance (CBC regression test set)
+markshare_4_0	optimal	1	min	public MIP benchmark instance (CBC regression test set)
+neos-1440225	optimal	36	min	public MIP benchmark instance (CBC regression test set)
+neos17	optimal	0.1500025774225777	min	public MIP benchmark instance (CBC regression test set)
+neos-3226448-wkra	optimal	0	min	public MIP benchmark instance (CBC regression test set); re-solved independently to confirm result
+neos-777800	optimal	-80	min	public MIP benchmark instance (CBC regression test set)
+neos-827175	optimal	112.00152	min	public MIP benchmark instance (CBC regression test set); re-solved independently to confirm result
+neos-913984	optimal	1000	min	public MIP benchmark instance (CBC regression test set)
+p200x1188c	optimal	15078	min	public MIP benchmark instance (CBC regression test set, extended/super set)
+sp150x300d	optimal	69	min	public MIP benchmark instance (CBC regression test set)
+T2_200_2000_0	optimal	1043	min	public MIP benchmark instance (CBC regression test set)
+T2_300_1000_0	optimal	736	min	public MIP benchmark instance (CBC regression test set)
+T2_300_5000_0	optimal	2004	min	public MIP benchmark instance (CBC regression test set, extended/super set)
+trd445c	optimal	-153419.078836	min	public MIP benchmark instance (CBC regression test set); re-solved independently to confirm result
+trdta0010	optimal	721096	min	public MIP benchmark instance (CBC regression test set)
+trdta5581	infeasible	NA	min	public MIP benchmark instance (CBC regression test set, infeasible subset); re-solved independently to confirm infeasibility
+wqueens-100	optimal	0	min	public MIP benchmark instance (CBC regression test set)
+wqueens-200	optimal	0	min	public MIP benchmark instance (CBC regression test set)
+wqueens-300	optimal	0	min	public MIP benchmark instance (CBC regression test set)
+wqueens-50	optimal	0	min	public MIP benchmark instance (CBC regression test set)

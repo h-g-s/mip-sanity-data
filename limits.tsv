@@ -435,3 +435,36 @@ stein45	concluded_fast	193332	120	300	64444	26.3	Optimal solution found
 swath	not_concluded	4312	120	300	4312	60.04	Stopped on time limit
 vpm1	concluded_fast	10	120	300	0	0.13	Optimal solution found
 vpm2	concluded_fast	62163	120	300	20721	9.65	Optimal solution found
+a05100	concluded_fast	1000	300	400	0	0.02	Optimal solution found
+a10100	concluded_fast	1000	300	400	0	0.04	Optimal solution found
+a10200	concluded_fast	1000	300	400	0	0.05	Optimal solution found
+a20200	concluded_fast	114	300	400	38	0.38	Optimal solution found
+c05100	concluded_slow	52674	300	400	17558	70.53	Optimal solution found
+drayage-100-23	concluded_fast	1000	300	400	0	33.78	Optimal solution found (within gap tolerance)
+dt_optimization	concluded_fast	129	300	400	43	47.33	Optimal solution found (within gap tolerance)
+eilB76	concluded_fast	1662	300	400	554	13.95	Optimal solution found
+eilC76	concluded_slow	2274	300	400	758	85	Optimal solution found
+enlight_hard	concluded_fast	1000	300	400	0	0.01	Optimal solution found
+exp-1-500-5-5	concluded_fast	2700	300	400	900	26.06	Optimal solution found
+h80x6320	concluded_fast	1000	300	400	0	0.31	Optimal solution found
+haprp	concluded_fast	1000	300	400	0	0.55	Optimal solution found (within gap tolerance)
+irp	concluded_fast	174	300	400	58	36.96	Optimal solution found
+markshare_4_0	concluded_fast	100000	300	400	2577204	47.62	Optimal solution found
+neos-1440225	concluded_fast	1000	300	400	0	1.09	Optimal solution found
+neos17	concluded_slow	25086	300	400	8362	65.52	Optimal solution found
+neos-3226448-wkra	concluded_fast	1000	300	400	0	8.95	Optimal solution found (within gap tolerance)
+neos-777800	concluded_fast	1000	300	400	0	1.8	Optimal solution found
+neos-827175	concluded_fast	1000	300	400	0	54.89	Optimal solution found (within gap tolerance)
+neos-913984	concluded_fast	1000	300	400	0	10.05	Optimal solution found
+p200x1188c	concluded_fast	1000	300	400	0	11.76	Optimal solution found
+sp150x300d	concluded_fast	1000	300	400	4	3.92	Optimal solution found
+T2_200_2000_0	concluded_fast	1000	300	400	2	0.39	Optimal solution found
+T2_300_1000_0	concluded_fast	1000	300	400	12	1.15	Optimal solution found
+T2_300_5000_0	concluded_fast	1000	300	400	164	8.48	Optimal solution found
+trd445c	concluded_fast	1000	300	400	0	2.71	Optimal solution found (within gap tolerance)
+trdta0010	concluded_fast	1000	300	400	0	1.52	Optimal solution found
+trdta5581	concluded_fast	1000	300	400	0	0.14	Problem proven infeasible
+wqueens-100	concluded_fast	1000	300	400	0	1.3	Optimal solution found
+wqueens-200	concluded_fast	1000	300	400	0	7.71	Optimal solution found
+wqueens-300	concluded_fast	1000	300	400	0	13.05	Optimal solution found
+wqueens-50	concluded_fast	1000	300	400	0	0.21	Optimal solution found
