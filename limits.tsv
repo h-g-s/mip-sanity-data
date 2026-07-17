@@ -385,7 +385,7 @@ dcmulti	concluded_fast	132	120	300	44	7.97	Optimal solution found
 dsbmip	concluded_fast	10	120	300	0	1.02	Optimal solution found (within gap tolerance)
 egout	concluded_fast	10	120	300	0	0.02	Optimal solution found (within gap tolerance)
 enigma	concluded_fast	23553	120	300	7851	1.21	Optimal solution found
-fast0507	not_concluded	26	300	400	26	60.47	Stopped on time limit
+fast0507	not_concluded	10	500	600	26	60.47	Stopped on time limit
 fiber	concluded_fast	360	120	300	120	1.96	Optimal solution found
 fixnet6	concluded_fast	12	120	300	4	2.47	Optimal solution found
 flugpl	concluded_fast	16806	120	300	5602	0.23	Optimal solution found
@@ -399,10 +399,10 @@ harp2	not_concluded	15235	120	300	15235	60.09	Stopped on time limit
 khb05250	concluded_fast	24	120	300	8	0.47	Optimal solution found
 l152lav	concluded_fast	3774	120	300	1258	3.69	Optimal solution found
 lseu	concluded_fast	6882	120	300	2294	0.8	Optimal solution found
-markshare1	not_concluded	500000	120	300	2569856	60.81	Stopped on time limit
-markshare2	not_concluded	500000	120	300	2218849	61.16	Stopped on time limit
-mas74	not_concluded	853697	120	300	853697	60.65	Stopped on time limit
-mas76	not_concluded	1135159	120	300	1135159	60.08	Stopped on time limit
+markshare1	not_concluded	100000	120	300	2569856	60.81	Stopped on time limit
+markshare2	not_concluded	100000	120	300	2218849	61.16	Stopped on time limit
+mas74	not_concluded	50000	120	300	853697	60.65	Stopped on time limit
+mas76	not_concluded	50000	120	300	1135159	60.08	Stopped on time limit
 misc03	concluded_fast	1224	120	300	408	3.51	Optimal solution found
 misc06	concluded_fast	10	120	300	2	0.91	Optimal solution found
 misc07	not_concluded	12319	120	300	12319	60.05	Stopped on time limit
