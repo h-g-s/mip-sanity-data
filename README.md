@@ -4,7 +4,7 @@
 
 **16 generated problem families (365 instances) plus 6 imported MIPLIB
 2017(+spp) reference instances plus 65 imported MIPLIB3 (1996 classic set)
-instances plus 33 imported public CBC-regression-test-set instances — 469
+instances plus 35 imported public CBC-regression-test-set instances — 471
 instances total.** Each instance ships as a `.mps.gz` file
 with a certified best-known (in most cases optimal) objective value in
 `bks.tsv` and at least one reference integer-feasible solution in `sols/`.
@@ -122,17 +122,26 @@ that can silently corrupt a seeded incumbent when preprocessing is enabled
 
 ## CBC regression test set instances (non-generated)
 
-33 real-world/public MIP benchmark instances (`a05100`, `a10100`, `a10200`,
+35 real-world/public MIP benchmark instances (`a05100`, `a10100`, `a10200`,
 `a20200`, `c05100`, `drayage-100-23`, `dt_optimization`, `eilB76`, `eilC76`,
 `enlight_hard`, `exp-1-500-5-5`, `h80x6320`, `haprp`, `irp`, `markshare_4_0`,
 `neos-1440225`, `neos17`, `neos-3226448-wkra`, `neos-777800`, `neos-827175`,
 `neos-913984`, `p200x1188c`, `sp150x300d`, `T2_200_2000_0`, `T2_300_1000_0`,
 `T2_300_5000_0`, `trd445c`, `trdta0010`, `trdta5581`, `wqueens-100`,
-`wqueens-200`, `wqueens-300`, `wqueens-50`), selected from a broader CBC
-solver-regression run (MIPster v0.3.12, `stats.csv`) as instances that
-finished (proved optimal, proved optimal within gap tolerance, or proved
-infeasible) in <=100 seconds. As with the other imported sets, no
-`generators/` subfolder exists for these.
+`wqueens-200`, `wqueens-300`, `wqueens-50`, `sprint08_j`, `etDecsi`), selected
+from a broader CBC solver-regression run (MIPster v0.3.12, `stats.csv`) as
+instances that finished (proved optimal, proved optimal within gap
+tolerance, or proved infeasible) in <=100 seconds. As with the other
+imported sets, no `generators/` subfolder exists for these.
+
+`sprint08_j` (sports scheduling, 3522 rows x 10250 cols) and `etDecsi`
+(university course timetabling, 17917 rows x 10606 cols) were added later
+from the same `~/inst/super` extended/super set. Both were solved to
+proven optimality directly with this repo's own CBC build (objective 56 in
+13 nodes/57s, and objective 7 in 2120 nodes/125s respectively) and
+independently cross-verified with Gurobi (`MIPGap=0`), which closed both to
+a matching 0% gap in a single node. `bks.tsv` records both as `optimal`;
+reference `.sol` files are CBC's own native solution output.
 
 All CBC-reported "optimal" results were accepted as-is. The 6 instances CBC
 reported as "optimal within gap tolerance" only (`drayage-100-23`,

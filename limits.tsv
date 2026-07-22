@@ -468,3 +468,5 @@ wqueens-100	concluded_fast	1000	300	400	0	1.3	Optimal solution found
 wqueens-200	concluded_fast	1000	300	400	0	7.71	Optimal solution found
 wqueens-300	concluded_fast	1000	300	400	0	13.05	Optimal solution found
 wqueens-50	concluded_fast	1000	300	400	0	0.21	Optimal solution found
+sprint08_j	concluded_slow	100	300	420	13	57.53	Optimal solution found
+etDecsi	not_concluded	100	300	420	2120	130.23	Optimal solution found

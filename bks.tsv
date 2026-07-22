@@ -468,3 +468,5 @@ wqueens-100	optimal	0	min	public MIP benchmark instance (CBC regression test set
 wqueens-200	optimal	0	min	public MIP benchmark instance (CBC regression test set)
 wqueens-300	optimal	0	min	public MIP benchmark instance (CBC regression test set)
 wqueens-50	optimal	0	min	public MIP benchmark instance (CBC regression test set)
+sprint08_j	optimal	56	min	public MIP benchmark instance (CBC regression test set, extended/super set); solved to proven optimality with CBC (13 nodes, 57s) and cross-verified with Gurobi (1 node, 5.5s)
+etDecsi	optimal	7	min	public MIP benchmark instance (CBC regression test set, extended/super set); solved to proven optimality with CBC (2120 nodes, 125s) and cross-verified with Gurobi (1 node, 1.7s)
