@@ -470,3 +470,4 @@ wqueens-300	optimal	0	min	public MIP benchmark instance (CBC regression test set
 wqueens-50	optimal	0	min	public MIP benchmark instance (CBC regression test set)
 sprint08_j	optimal	56	min	public MIP benchmark instance (CBC regression test set, extended/super set); solved to proven optimality with CBC (13 nodes, 57s) and cross-verified with Gurobi (1 node, 5.5s)
 etDecsi	optimal	7	min	public MIP benchmark instance (CBC regression test set, extended/super set); solved to proven optimality with CBC (2120 nodes, 125s) and cross-verified with Gurobi (1 node, 1.7s)
+nu25-pr12	optimal	53905	min	MIPLIB2017(+spp); certified optimal per MIPLIB solutions archive (h-g-s/inst/miplib/2017+spp/solutions/nu25-pr12); used as a regression fixture for a WRONG_OBJ bug found in Cbc next (root-caused and fixed via CglProbing general-integer bound-propagation bypasses)
