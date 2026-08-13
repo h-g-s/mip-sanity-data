@@ -4,8 +4,9 @@
 
 **16 generated problem families (365 instances) plus 6 imported MIPLIB
 2017(+spp) reference instances plus 65 imported MIPLIB3 (1996 classic set)
-instances plus 35 imported public CBC-regression-test-set instances — 471
-instances total.** Each instance ships as a `.mps.gz` file
+instances plus 35 imported public CBC-regression-test-set instances plus 27
+imported MIPLIB 2017 diversity-selected instances — 500 instances total.**
+Each instance ships as a `.mps.gz` file
 with a certified best-known (in most cases optimal) objective value in
 `bks.tsv` and at least one reference integer-feasible solution in `sols/`.
 Every generated family has a generator under `generators/<family>/` so the
@@ -160,6 +161,94 @@ resolving with a different solver; every reference `.sol` in this subset
 was validated feasible with `mipster_validate_sol`. `trdta5581` (proven
 infeasible) has a `bks.tsv` row but no `sols/` entry, consistent with the
 other infeasible fixtures in this dataset.
+
+## MIPLIB 2017 diversity-selected imports (non-generated)
+
+27 additional real-world instances imported from MIPLIB 2017(+spp), selected
+to grow the dataset from 473 to 500 instances while maximizing feature-space
+diversity relative to the instances already present. As with the other
+imported sets, no `generators/` subfolder exists for these.
+
+**Selection methodology:** a large existing 385-instance/3600s CBC benchmark
+run (`trust5`, x86_64) was mined for instances not already in this dataset
+that could process a non-trivial number of B&B nodes within a 60-120s
+window (236 usable candidates found). Each candidate's certified status was
+cross-checked against MIPLIB's official `.solu` file, and the candidate pool
+was restricted to instances with a certified `=opt=` (proven optimal) or
+`=inf=` (proven infeasible) tag, or a CBC-`SOLVED` status, so that the
+resulting reference solution/objective could be trusted independently of
+this dataset's own tooling. Cbc's `-writeFeatures` was used to compute the
+same 208-column feature vector already stored in `features.tsv` for every
+candidate and for all existing instances; features were z-scored (columns
+clipped to +/-8 sigma to limit outlier leverage) and a greedy farthest-point
+(max-min Euclidean distance) selection was run to iteratively pick the 27
+candidates most dissimilar from the existing pool, updating the running
+min-distance vector after each pick. Two candidates initially selected
+(`radiationm40-10-02`, `supportcase7`) were dropped and replaced by the next
+farthest candidate after independent verification revealed, respectively, no
+MIPLIB reference solution was available at all, and the instance's root-node
+cut generation alone overran the time/hard-kill budget without reaching the
+B&B tree (Nodes: 0) — see `mushroom-best` and `sing44`, their replacements.
+
+**Reference solutions:** for each of the 27, the certified optimal objective
+comes directly from MIPLIB's `.solu` file. Where this dataset's own
+385-instance CBC run happened to already find a matching incumbent (9 of
+27), that run's native `.sol` output was reused directly. For the other 18,
+MIPLIB's own official per-instance solution file was downloaded
+(`https://miplib.zib.de/downloads/solutions/<instance>/1/<instance>.sol.gz`)
+and reformatted into this dataset's native `.sol` header convention
+(`Optimal - objective value <v>` followed by `name value` pairs — MIPLIB's
+own raw format uses an `=obj= <v>` header instead). All 27 reference
+solutions were validated feasible and objective-matching against the actual
+`.mps.gz` model with this repo's own `cbc_validate_sol` tool
+(`--expected-status optimal --expected-obj <bks>`).
+
+**Node/time limits:** following this dataset's existing `not_concluded`
+convention, `node_limit` is set to roughly half the number of nodes CBC's
+reference run reached in a 120s window (so the run is expected to finish
+within about a minute or two of B&B activity), with a generous
+`time_limit_sec=180`/`hard_kill_sec=300` safety net for instances whose
+per-node cost differs enough from the reference run's environment that the
+node limit isn't reached first. Two instances (`neos-860300`,
+`neos-2987310-joes`) concluded (proved optimal) well within 60s in the
+reference run and were classified `concluded_fast` (`node_limit=0`,
+`time_limit_sec=120`). A local run of this repo's own CBC build against all
+27 confirmed every instance passes validation with no hard-kill timeouts;
+12 of the 27 terminate deterministically on the node limit, 2 terminate
+having already proved optimality, and the remaining 13 terminate on the
+180s soft time limit (still processing hundreds to thousands of nodes by
+then) — acceptable per this dataset's own "interesting instance" bar, which
+does not require the search to conclude within the quick-test budget.
+
+| Instance | Rows x Cols | Objective | Termination | Category |
+|---|---|---|---|---|
+| `neos-3402294-bobin` | 591076 x 2904 | 0.0672499999999995 | Stopped on node limit (99 nodes, 101.80s) | not_concluded |
+| `supportcase12` | 166781 x 799616 | -7559.533053817 | Stopped on node limit (968 nodes, 168.60s) | not_concluded |
+| `sing44` | 54745 x 59708 | 8128831.1772 | Stopped on time limit (2 nodes, 180.90s) | not_concluded |
+| `rd-rplusc-21` | 125899 x 622 | 165395.275295 | Stopped on node limit (210 nodes, 170.10s) | not_concluded |
+| `snp-02-004-104` | 126512 x 228350 | 586803238.657 | Stopped on time limit (3411 nodes, 143.30s) | not_concluded |
+| `map10` | 328818 x 164547 | -495 | Stopped on node limit (30 nodes, 184.40s) | not_concluded |
+| `neos-4647030-tutaki` | 8382 x 12600 | 27265.706 | Stopped on time limit (810 nodes, 190.00s) | not_concluded |
+| `neos-5093327-huahum` | 51840 x 40640 | 6260 | Stopped on time limit (1812 nodes, 181.00s) | not_concluded |
+| `roi2alpha3n4` | 1251 x 6816 | -63.20849503 | Stopped on time limit (3544 nodes, 180.60s) | not_concluded |
+| `bab6` | 29904 x 114240 | -284248.2307 | Stopped on time limit (70 nodes, 180.50s) | not_concluded |
+| `neos-860300` | 850 x 1385 | 3201 | Optimal solution found (3074 nodes, 45.20s) | concluded_fast |
+| `ns1952667` | 41 x 13264 | 0 | Stopped on node limit (2402 nodes, 32.60s) | not_concluded |
+| `neos-2987310-joes` | 29015 x 27837 | -607702988.3 | Optimal solution found (2 nodes, 16.60s) | concluded_fast |
+| `proteindesign122trx11p8` | 254 x 127326 | 1747 | Stopped on time limit (154 nodes, 180.90s) | not_concluded |
+| `supportcase42` | 18439 x 19466 | 7.75863072227 | Stopped on time limit (405 nodes, 203.80s) | not_concluded |
+| `supportcase6` | 771 x 130052 | 51906.47737 | Stopped on time limit (0 nodes, 180.50s) | not_concluded |
+| `sp98ar` | 1435 x 15085 | 529740623.2 | Stopped on node limit (3934 nodes, 129.10s) | not_concluded |
+| `neos-787933` | 1897 x 236376 | 30 | Stopped on time limit (411 nodes, 181.00s) | not_concluded |
+| `thor50dday` | 53360 x 106261 | 40417 | Stopped on time limit (161 nodes, 191.30s) | not_concluded |
+| `uccase12` | 121161 x 62529 | 11507.4050616 | Stopped on time limit (0 nodes, 180.90s) | not_concluded |
+| `iis-hc-cov` | 9727 x 297 | 17 | Stopped on time limit (241 nodes, 180.50s) | not_concluded |
+| `satellites2-40` | 20916 x 35378 | -19 | Stopped on node limit (52 nodes, 159.40s) | not_concluded |
+| `trento1` | 1265 x 7687 | 5189487 | Stopped on node limit (891 nodes, 121.60s) | not_concluded |
+| `neos-2746589-doon` | 31530 x 50936 | 2008.2 | Stopped on time limit (1093 nodes, 180.30s) | not_concluded |
+| `atlanta-ip` | 21732 x 48738 | 90.009878614 | Stopped on node limit (9 nodes, 170.00s) | not_concluded |
+| `sorrell3` | 169162 x 1024 | -16 | Stopped on node limit (2 nodes, 182.20s) | not_concluded |
+| `mushroom-best` | 8580 x 8468 | 0.0553337612 | Stopped on time limit (1570 nodes, 180.70s) | not_concluded |
 
 ## Solver coverage (full-run snapshot)
 

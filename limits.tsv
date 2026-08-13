@@ -472,3 +472,30 @@ sprint08_j	concluded_slow	100	300	420	13	57.53	Optimal solution found
 etDecsi	not_concluded	100	300	420	2120	130.23	Optimal solution found
 nu25-pr12	concluded	50000	300	420	16235	39.6	Optimal solution found
 gen-ip054	concluded	100000	300	420	100000	1.3	Stopped on node limit
+neos-3402294-bobin	not_concluded	99	180	300	99	101.80	Stopped on node limit
+supportcase12	not_concluded	968	180	300	968	168.60	Stopped on node limit
+rd-rplusc-21	not_concluded	210	180	300	210	170.10	Stopped on node limit
+snp-02-004-104	not_concluded	3518	180	300	3411	143.30	Stopped on time limit
+map10	not_concluded	30	180	300	30	184.40	Stopped on node limit
+neos-4647030-tutaki	not_concluded	1732	180	300	810	190.00	Stopped on time limit
+neos-5093327-huahum	not_concluded	2048	180	300	1812	181.00	Stopped on time limit
+roi2alpha3n4	not_concluded	5723	180	300	3544	180.60	Stopped on time limit
+bab6	not_concluded	140	180	300	70	180.50	Stopped on time limit
+neos-860300	concluded_fast	0	120	300	3074	45.20	Optimal solution found
+ns1952667	not_concluded	2334	180	300	2402	32.60	Stopped on node limit
+neos-2987310-joes	concluded_fast	0	120	300	2	16.60	Optimal solution found
+proteindesign122trx11p8	not_concluded	3142	180	300	154	180.90	Stopped on time limit
+supportcase42	not_concluded	948	180	300	405	203.80	Stopped on time limit
+supportcase6	not_concluded	71	180	300	0	180.50	Stopped on time limit
+sp98ar	not_concluded	3934	180	300	3934	129.10	Stopped on node limit
+neos-787933	not_concluded	13386	180	300	411	181.00	Stopped on time limit
+thor50dday	not_concluded	1267	180	300	161	191.30	Stopped on time limit
+uccase12	not_concluded	562	180	300	0	180.90	Stopped on time limit
+iis-hc-cov	not_concluded	472	180	300	241	180.50	Stopped on time limit
+satellites2-40	not_concluded	52	180	300	52	159.40	Stopped on node limit
+trento1	not_concluded	891	180	300	891	121.60	Stopped on node limit
+neos-2746589-doon	not_concluded	1599	180	300	1093	180.30	Stopped on time limit
+atlanta-ip	not_concluded	9	180	300	9	170.00	Stopped on node limit
+sorrell3	not_concluded	2	180	300	2	182.20	Stopped on node limit
+mushroom-best	not_concluded	6639	180	300	1570	180.70	Stopped on time limit
+sing44	not_concluded	18	180	300	2	180.90	Stopped on time limit
