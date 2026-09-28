@@ -427,6 +427,14 @@ qnet1	optimal	16029.692681	min	MIPLIB3 (1996 classic set); value verified/improv
 qnet1_o	optimal	16029.692681	min	MIPLIB3 (1996 classic set); value verified/improved with an independent MILP solver, validated feasible via mipster_validate_sol
 rentacar	optimal	30356760.984148	min	MIPLIB3 (1996 classic set); value verified/improved with an independent MILP solver, validated feasible via mipster_validate_sol
 rgn	optimal	82.199999	min	MIPLIB3 (1996 classic set); value verified/improved with an independent MILP solver, validated feasible via mipster_validate_sol
+rmp01	optimal	384505.15622000	min	MIPLIB 2017+spp restricted master problem (set-partitioning style); certified via CBC, cross-checked to 0% gap with HiGHS (tight mip_rel_gap/mip_abs_gap=0)
+rmp02	optimal	335906.44895900	min	MIPLIB 2017+spp restricted master problem (set-partitioning style); certified via CBC, cross-checked to 0% gap with HiGHS (tight mip_rel_gap/mip_abs_gap=0)
+rmp03	optimal	262641.45720000	min	MIPLIB 2017+spp restricted master problem (set-partitioning style); certified via CBC, cross-checked to 0% gap with both HiGHS (tight mip_rel_gap/mip_abs_gap=0) and SCIP (default settings)
+rmp04	optimal	316470.51130000	min	MIPLIB 2017+spp restricted master problem (set-partitioning style); certified via CBC, cross-checked to 0% gap with HiGHS (tight mip_rel_gap/mip_abs_gap=0)
+rmp05	optimal	11004.33550000	min	MIPLIB 2017+spp restricted master problem (set-partitioning style); solved at the root node by both CBC and HiGHS (exact match)
+rmp06	optimal	37607.78300000	min	MIPLIB 2017+spp restricted master problem (set-partitioning style); solved at the root node by both CBC and HiGHS (exact match)
+rmp07	optimal	43009.71000000	min	MIPLIB 2017+spp restricted master problem (set-partitioning style); solved at the root node by both CBC and HiGHS (exact match)
+rmp08	optimal	30151.55330000	min	MIPLIB 2017+spp restricted master problem (set-partitioning style); solved at the root node by both CBC and HiGHS (exact match)
 rout	optimal	1077.56	min	MIPLIB3 (1996 classic set); value verified/improved with an independent MILP solver, validated feasible via mipster_validate_sol
 set1ch	optimal	54537.75	min	MIPLIB3 (1996 classic set); value verified/improved with an independent MILP solver, validated feasible via mipster_validate_sol
 seymour	best_known	423	min	MIPLIB3 (1996 classic set); value verified/improved with an independent MILP solver, validated feasible via mipster_validate_sol

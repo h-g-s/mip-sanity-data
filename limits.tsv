@@ -427,6 +427,14 @@ qnet1	concluded_fast	381	120	300	127	6.52	Optimal solution found
 qnet1_o	concluded_fast	306	120	300	102	4.48	Optimal solution found
 rentacar	concluded_fast	36	120	300	12	9.16	Optimal solution found
 rgn	concluded_fast	4320	120	300	1440	0.93	Optimal solution found
+rmp01	concluded_fast	1000	150	300	2	3.19	Optimal solution found
+rmp02	concluded_fast	1760	150	300	88	8.72	Optimal solution found
+rmp03	concluded_fast	60640	150	300	3032	23.30	Optimal solution found
+rmp04	concluded_fast	1000	150	300	38	4.91	Optimal solution found
+rmp05	concluded_fast	0	150	300	0	0.01	Optimal solution found
+rmp06	concluded_fast	0	150	300	0	0.01	Optimal solution found
+rmp07	concluded_fast	0	150	300	0	0.04	Optimal solution found
+rmp08	concluded_fast	0	150	300	0	0.01	Optimal solution found
 rout	not_concluded	11573	120	300	11573	60.04	Stopped on time limit
 set1ch	concluded_fast	20000	300	400	16577	15.29	Optimal solution found
 seymour	not_concluded	16	120	300	16	60.8	Stopped on time limit
