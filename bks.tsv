@@ -507,3 +507,4 @@ atlanta-ip	optimal	90.009878614	min	MIPLIB 2017 benchmark (certified =opt=)
 sorrell3	optimal	-16	min	MIPLIB 2017 benchmark (certified =opt=)
 mushroom-best	optimal	0.0553337612	min	MIPLIB 2017 benchmark (certified =opt=)
 sing44	optimal	8128831.1772	min	MIPLIB 2017 benchmark (certified =opt=)
+decomp2	optimal	-160	min	MIPLIB 2017 benchmark (certified =opt=); root cut-purge false-timeout regression

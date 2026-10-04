@@ -250,6 +250,17 @@ does not require the search to conclude within the quick-test budget.
 | `sorrell3` | 169162 x 1024 | -16 | Stopped on node limit (2 nodes, 182.20s) | not_concluded |
 | `mushroom-best` | 8580 x 8468 | 0.0553337612 | Stopped on time limit (1570 nodes, 180.70s) | not_concluded |
 
+## Root cut-purge regression
+
+`decomp2` (MIPLIB 2017, 10765 rows x 14387 columns, certified optimum
+-160) exercises root cut generation, incumbent discovery, and removal of
+ineffective cuts. It solves at the root in under a second on the local
+reference machine. Removing cuts can leave Clp's status at -1 ("not solved")
+without an abandoned LP solve; Cbc must not mistake this for a time-limit
+stop. The reference solution comes from MIPLIB's official solution archive.
+The fixture includes the usual `bks.tsv`, `limits.tsv`, and `features.tsv`
+metadata and is picked up automatically by the regression harness.
+
 ## Solver coverage (full-run snapshot)
 
 > Snapshot predates the `cttp` family; counts below are out of the 347

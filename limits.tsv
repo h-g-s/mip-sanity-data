@@ -507,3 +507,4 @@ atlanta-ip	not_concluded	9	180	300	9	170.00	Stopped on node limit
 sorrell3	not_concluded	2	180	300	2	182.20	Stopped on node limit
 mushroom-best	not_concluded	6639	180	300	1570	180.70	Stopped on time limit
 sing44	not_concluded	18	180	300	2	180.90	Stopped on time limit
+decomp2	concluded_fast	0	120	300	0	0.664	Optimal solution found
