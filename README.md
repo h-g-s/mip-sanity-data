@@ -5,7 +5,9 @@
 **16 generated problem families (365 instances) plus 6 imported MIPLIB
 2017(+spp) reference instances plus 65 imported MIPLIB3 (1996 classic set)
 instances plus 35 imported public CBC-regression-test-set instances plus 27
-imported MIPLIB 2017 diversity-selected instances — 500 instances total.**
+imported MIPLIB 2017 diversity-selected instances, 10 imported restricted
+master problems (`rmp01`-`rmp10`), and the `decomp2` regression fixture —
+511 instances total.**
 Each instance ships as a `.mps.gz` file
 with a certified best-known (in most cases optimal) objective value in
 `bks.tsv` and at least one reference integer-feasible solution in `sols/`.
@@ -348,6 +350,31 @@ fixture uses a small fixed margin since it's proven infeasible at the root).
 18 `cttp` rows — more relaxed than the other families' limits since
 CTTP's root-node cut generation can consume most of a 60s budget on
 harder instances, leaving very few nodes for branch-and-bound.
+
+## Restricted master problems (`rmp01`-`rmp10`)
+
+These models are imported from the local MIPLIB 2017(+spp) benchmark
+collection, not generated here. `rmp09` and `rmp10` were added from the
+downloaded files of the same names on 2026-10-05. Their original MPS
+`NAME` fields differ from their filenames; dataset keys use the filenames.
+
+Both new models have complete reference solutions in `sols/`, optimal
+objectives in `bks.tsv`, and structural features extracted with
+`OsiFeatures` in `features.tsv`. HiGHS certified the objectives with both
+relative and absolute MIP gaps set to zero; `cbc_validate_sol` checked
+every variable, integer constraint, row, and recomputed objective.
+The optima are **221835.051348035** (`rmp09`) and
+**199825.76618928433** (`rmp10`). CBC independently matched `rmp10`.
+
+The new limits deliberately leave a larger margin than the usual
+calibration rules: `rmp09` gets 100000 nodes / 900 seconds / 1200 seconds
+hard-kill, and `rmp10` gets 10000 nodes / 300 seconds / 600 seconds
+hard-kill. In an exact-gap, single-thread CBC run, `rmp09` did not
+conclude within 300 seconds (2714 nodes), whereas `rmp10` proved optimal
+in 25.63 seconds (357 nodes). HiGHS proved both in approximately 155 and
+21 seconds, respectively. CBC's default gap tolerance can stop `rmp09`
+with a slightly worse incumbent; its reference solution is the exact-gap
+HiGHS optimum, not that gap-tolerance incumbent.
 
 ## File structure
 

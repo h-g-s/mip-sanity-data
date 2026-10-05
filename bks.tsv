@@ -435,6 +435,8 @@ rmp05	optimal	11004.33550000	min	MIPLIB 2017+spp restricted master problem (set-
 rmp06	optimal	37607.78300000	min	MIPLIB 2017+spp restricted master problem (set-partitioning style); solved at the root node by both CBC and HiGHS (exact match)
 rmp07	optimal	43009.71000000	min	MIPLIB 2017+spp restricted master problem (set-partitioning style); solved at the root node by both CBC and HiGHS (exact match)
 rmp08	optimal	30151.55330000	min	MIPLIB 2017+spp restricted master problem (set-partitioning style); solved at the root node by both CBC and HiGHS (exact match)
+rmp09	optimal	221835.051348035	min	Restricted master problem imported from rmp09.mps.gz; certified by HiGHS with mip_rel_gap=mip_abs_gap=0; reference solution validated by cbc_validate_sol
+rmp10	optimal	199825.76618928433	min	Restricted master problem imported from rmp10.mps.gz; certified by HiGHS with mip_rel_gap=mip_abs_gap=0 and independently matched by CBC; reference solution validated by cbc_validate_sol
 rout	optimal	1077.56	min	MIPLIB3 (1996 classic set); value verified/improved with an independent MILP solver, validated feasible via mipster_validate_sol
 set1ch	optimal	54537.75	min	MIPLIB3 (1996 classic set); value verified/improved with an independent MILP solver, validated feasible via mipster_validate_sol
 seymour	best_known	423	min	MIPLIB3 (1996 classic set); value verified/improved with an independent MILP solver, validated feasible via mipster_validate_sol

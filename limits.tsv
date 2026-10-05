@@ -435,6 +435,8 @@ rmp05	concluded_fast	0	150	300	0	0.01	Optimal solution found
 rmp06	concluded_fast	0	150	300	0	0.01	Optimal solution found
 rmp07	concluded_fast	0	150	300	0	0.04	Optimal solution found
 rmp08	concluded_fast	0	150	300	0	0.01	Optimal solution found
+rmp09	not_concluded	100000	900	1200	2714	300.13	Stopped on time limit (CBC, threads=1, ratioGap=allowableGap=0)
+rmp10	concluded_fast	10000	300	600	357	25.63	Optimal solution found
 rout	not_concluded	11573	120	300	11573	60.04	Stopped on time limit
 set1ch	concluded_fast	20000	300	400	16577	15.29	Optimal solution found
 seymour	not_concluded	16	120	300	16	60.8	Stopped on time limit
